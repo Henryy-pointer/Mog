@@ -6,6 +6,7 @@ CMakeFiles/renderer.dir/window.c.o: window.c \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/confname.h \
@@ -22,8 +23,23 @@ CMakeFiles/renderer.dir/window.c.o: window.c \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h \
+  /usr/include/bits/sigevent-consts.h \
+  /usr/include/bits/siginfo-arch.h \
+  /usr/include/bits/siginfo-consts.h \
+  /usr/include/bits/signal_ext.h \
+  /usr/include/bits/signum-arch.h \
+  /usr/include/bits/signum-generic.h \
+  /usr/include/bits/sigstack.h \
+  /usr/include/bits/sigstksz.h \
+  /usr/include/bits/sigthread.h \
+  /usr/include/bits/ss_flags.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/bits/thread-shared-types.h \
@@ -36,11 +52,19 @@ CMakeFiles/renderer.dir/window.c.o: window.c \
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/once_flag.h \
+  /usr/include/bits/types/sig_atomic_t.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/siginfo_t.h \
   /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/sigval_t.h \
+  /usr/include/bits/types/stack_t.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_sigstack.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
   /usr/include/bits/types/time_t.h \
@@ -48,6 +72,9 @@ CMakeFiles/renderer.dir/window.c.o: window.c \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
   /usr/include/bits/unistd_ext.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/endian.h \
   /usr/include/err.h \
@@ -55,77 +82,214 @@ CMakeFiles/renderer.dir/window.c.o: window.c \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/signal.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
   /usr/include/stdio.h \
+  /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/types.h \
+  /usr/include/sys/ucontext.h \
   /usr/include/unistd.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
+renderer: /usr/lib/Scrt1.o \
+  /usr/lib/crti.o \
+  /usr/lib/crtn.o \
+  /usr/lib/libc.so \
+  /usr/lib/libgcc_s.so \
+  /usr/lib/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
+  /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/libICE.so \
+  /usr/lib/libSM.so \
+  /usr/lib/libX11.so \
+  /usr/lib/libXau.so.6 \
+  /usr/lib/libXdmcp.so.6 \
+  /usr/lib/libXext.so \
+  /usr/lib/libc.so.6 \
+  /usr/lib/libc_nonshared.a \
+  /usr/lib/libuuid.so.1 \
+  /usr/lib/libxcb.so.1 \
+  /usr/lib32/libXau.so.6 \
+  /usr/lib32/libXdmcp.so.6 \
+  /usr/lib32/libuuid.so.1 \
+  /usr/lib32/libxcb.so.1 \
+  CMakeFiles/renderer.dir/window.c.o
+
+
+CMakeFiles/renderer.dir/window.c.o:
+
+/usr/lib32/libuuid.so.1:
+
+/usr/lib/libxcb.so.1:
+
+/usr/lib/libc.so.6:
+
+/usr/lib/libXdmcp.so.6:
+
+/usr/lib/libXau.so.6:
+
+/usr/lib/libX11.so:
+
+/usr/lib/libSM.so:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
+
+/usr/lib/libgcc_s.so.1:
+
+/usr/lib/libgcc_s.so:
+
+/usr/lib/libc.so:
+
+/usr/lib/crtn.o:
+
+/usr/lib/Scrt1.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
-
 /usr/include/unistd.h:
 
-/usr/include/bits/posix_opt.h:
+/usr/include/sys/types.h:
 
 /usr/include/sys/cdefs.h:
 
-/usr/include/bits/time64.h:
+/usr/include/stdlib.h:
 
-/usr/include/bits/byteswap.h:
+/usr/include/signal.h:
 
-/usr/include/X11/Xlib.h:
+/usr/include/features-time64.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/err.h:
 
-/usr/include/bits/getopt_posix.h:
+/usr/lib/libXext.so:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/lib32/libXau.so.6:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/lib32/libxcb.so.1:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/bits/types/sigval_t.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/bits/types/struct_sigstack.h:
+
+/usr/include/bits/types/stack_t.h:
+
+/usr/include/bits/signum-arch.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/bits/sigevent-consts.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/types/once_flag.h:
+
+/usr/include/bits/sigcontext.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
-/usr/include/bits/libc-header-start.h:
+/usr/include/bits/getopt_posix.h:
 
-/usr/include/bits/struct_mutex.h:
+/usr/include/bits/thread-shared-types.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/bits/floatn.h:
 
 /usr/include/bits/select.h:
 
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/features-time64.h:
-
 window.c:
 
-/usr/include/gnu/stubs.h:
+/usr/include/bits/signal_ext.h:
 
-/usr/include/bits/stdint-intn.h:
+/usr/include/bits/byteswap.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/bits/time64.h:
+
+/usr/lib/libuuid.so.1:
 
 /usr/include/bits/long-double.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/struct_timeval.h:
 
 /usr/include/features.h:
 
 /usr/include/X11/Xfuncproto.h:
 
-/usr/include/bits/getopt_core.h:
-
-/usr/include/bits/types.h:
-
 /usr/include/bits/endianness.h:
 
 /usr/include/bits/floatn-common.h:
 
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/siginfo-consts.h:
+
+/usr/lib32/libXdmcp.so.6:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/lib/crti.o:
+
+/usr/include/bits/types/sigevent_t.h:
+
+/usr/include/stdint.h:
+
 /usr/include/X11/Xosdefs.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/bits/types/__sigval_t.h:
 
 /usr/include/bits/timesize.h:
 
@@ -133,21 +297,51 @@ window.c:
 
 /usr/include/bits/types/__sigset_t.h:
 
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/signum-generic.h:
+
+/usr/include/bits/struct_mutex.h:
+
 /usr/include/bits/confname.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/gnu/stubs.h:
 
-/usr/include/bits/floatn.h:
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/bits/ss_flags.h:
+
+/usr/include/bits/sigstksz.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/types/siginfo_t.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/lib/libc_nonshared.a:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/bits/siginfo-arch.h:
+
+/usr/include/bits/types.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/X11/X.h:
 
+/usr/include/bits/stdlib-float.h:
+
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/wordsize.h:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -159,32 +353,10 @@ window.c:
 
 /usr/include/endian.h:
 
+/usr/include/bits/stdint-uintn.h:
+
 /usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/bits/uintn-identity.h:
+/usr/lib/libICE.so:
 
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/types/sigset_t.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/bits/environments.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/bits/unistd_ext.h:
-
-/usr/include/err.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/stdio.h:
-
-/usr/include/sys/types.h:
+/usr/include/bits/types/sig_atomic_t.h:

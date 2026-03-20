@@ -8,6 +8,7 @@
 #include <signal.h>
 
 Display* dp;
+Window win;
 static int scr;
 static Window root;
 
@@ -20,24 +21,21 @@ static Window root;
 uint32_t *framebuffer;
 
 
-void exit(){
+void cleanup(){
   XUnmapWindow(dp, win);
   XDestroyWindow(dp, win);
   XCloseDisplay(dp);
   free(framebuffer);
   framebuffer = NULL;
-  return 0;
+  exit(0);
 }
 
-void handle_signal(){
-  exit();
-}
 
 int main(){
 
-  signal(SIGINT, handle_signal);
-  signal(SIGTERM, handle_signal);
-  signal(SIGQUIT, handle_signal);
+  //signal(SIGINT, void cleanup);
+  //signal(SIGTERM, void cleanup);
+  //signal(SIGQUIT, void cleanup);
   Window win;
   XEvent ev;
 
@@ -54,20 +52,20 @@ int main(){
   Atom WM_DELETE_WINDOW = XInternAtom(dp, "WM_DELETE_WINDOW", False);
   XMapWindow(dp, win);
 
-  uint32_t *framebuffer = malloc(WIDHT * HEIGHT * sizeof(uint32_t));
+  uint32_t *framebuffer = malloc(WIDTH * HEIGHT * sizeof(uint32_t));
 
   while(1){
     XNextEvent(dp, &ev);
 
     if(ev.type == ClientMessage){
       if((Atom)ev.xclient.data.l[0] ==  WM_DELETE_WINDOW) {
-        exit();
+        cleanup();
       }
     }
     
   }
   
   /* unmap window */ 
-  exit();
+  cleanup();
   return 0;
 }
