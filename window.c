@@ -1,7 +1,11 @@
-#include <Xlib.h>
+#include <X11/Xlib.h>
 #include <stdio.h>
 #include <err.h>
 #include <unistd.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <signal.h>
 
 Display* dp;
 static int scr;
@@ -13,32 +17,57 @@ static Window root;
 #define HEIGHT 600
 #define BORDER 15
 
+uint32_t *framebuffer;
+
+
+void exit(){
+  XUnmapWindow(dp, win);
+  XDestroyWindow(dp, win);
+  XCloseDisplay(dp);
+  free(framebuffer);
+  framebuffer = NULL;
+  return 0;
+}
+
+void handle_signal(){
+  exit();
+}
+
 int main(){
+
+  signal(SIGINT, handle_signal);
+  signal(SIGTERM, handle_signal);
+  signal(SIGQUIT, handle_signal);
   Window win;
   XEvent ev;
 
   dp = XOpenDisplay(NULL);
 
-  switch (dp) {
-    case NULL:
-      errx(1, "Can't open display");
-    case default:
-      break;
-  };
-
+  if(dp == NULL){
+    errx(1, "Can't Open Display:67");
+  }
   scr = DefaultScreen(dp);
   root = RootWindow(dp, scr);
 
   win = XCreateSimpleWindow(dp, root, POSX, POSY, WIDTH, HEIGHT, BORDER, BlackPixel(dp, scr), WhitePixel(dp, scr));
+
+  Atom WM_DELETE_WINDOW = XInternAtom(dp, "WM_DELETE_WINDOW", False);
   XMapWindow(dp, win);
 
-  while(XNextEvent(dp, &ev) == 0){
+  uint32_t *framebuffer = malloc(WIDHT * HEIGHT * sizeof(uint32_t));
+
+  while(1){
+    XNextEvent(dp, &ev);
+
+    if(ev.type == ClientMessage){
+      if((Atom)ev.xclient.data.l[0] ==  WM_DELETE_WINDOW) {
+        exit();
+      }
+    }
     
   }
   
   /* unmap window */ 
-  XUnmapWindow(dp, win);
-  XDestroyWindow(dp, win);
-  XCloseDisplay(dp);
+  exit();
   return 0;
 }
