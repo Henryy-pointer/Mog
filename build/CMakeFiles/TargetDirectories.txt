@@ -1,0 +1,2 @@
+/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/edit_cache.dir
+/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/rebuild_cache.dir
