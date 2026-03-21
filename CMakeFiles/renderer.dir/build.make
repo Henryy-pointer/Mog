@@ -72,28 +72,76 @@ include CMakeFiles/renderer.dir/flags.make
 CMakeFiles/renderer.dir/codegen:
 .PHONY : CMakeFiles/renderer.dir/codegen
 
-CMakeFiles/renderer.dir/window.c.o: CMakeFiles/renderer.dir/flags.make
-CMakeFiles/renderer.dir/window.c.o: window.c
-CMakeFiles/renderer.dir/window.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/renderer.dir/window.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/window.c.o -MF CMakeFiles/renderer.dir/window.c.o.d -o CMakeFiles/renderer.dir/window.c.o -c /mnt/d/Proyectos/C/Xorg/window.c
+CMakeFiles/renderer.dir/src/main.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/main.c.o: src/main.c
+CMakeFiles/renderer.dir/src/main.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/renderer.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/main.c.o -MF CMakeFiles/renderer.dir/src/main.c.o.d -o CMakeFiles/renderer.dir/src/main.c.o -c /mnt/d/Proyectos/C/Xorg/src/main.c
 
-CMakeFiles/renderer.dir/window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/window.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/window.c > CMakeFiles/renderer.dir/window.c.i
+CMakeFiles/renderer.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/main.c > CMakeFiles/renderer.dir/src/main.c.i
 
-CMakeFiles/renderer.dir/window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/window.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/window.c -o CMakeFiles/renderer.dir/window.c.s
+CMakeFiles/renderer.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/main.c -o CMakeFiles/renderer.dir/src/main.c.s
+
+CMakeFiles/renderer.dir/src/platform/X11/window.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/platform/X11/window.c.o: src/platform/X11/window.c
+CMakeFiles/renderer.dir/src/platform/X11/window.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/renderer.dir/src/platform/X11/window.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/platform/X11/window.c.o -MF CMakeFiles/renderer.dir/src/platform/X11/window.c.o.d -o CMakeFiles/renderer.dir/src/platform/X11/window.c.o -c /mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c
+
+CMakeFiles/renderer.dir/src/platform/X11/window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/platform/X11/window.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c > CMakeFiles/renderer.dir/src/platform/X11/window.c.i
+
+CMakeFiles/renderer.dir/src/platform/X11/window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/platform/X11/window.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c -o CMakeFiles/renderer.dir/src/platform/X11/window.c.s
+
+CMakeFiles/renderer.dir/src/Scene.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/Scene.c.o: src/Scene.c
+CMakeFiles/renderer.dir/src/Scene.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/renderer.dir/src/Scene.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/Scene.c.o -MF CMakeFiles/renderer.dir/src/Scene.c.o.d -o CMakeFiles/renderer.dir/src/Scene.c.o -c /mnt/d/Proyectos/C/Xorg/src/Scene.c
+
+CMakeFiles/renderer.dir/src/Scene.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/Scene.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/Scene.c > CMakeFiles/renderer.dir/src/Scene.c.i
+
+CMakeFiles/renderer.dir/src/Scene.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/Scene.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/Scene.c -o CMakeFiles/renderer.dir/src/Scene.c.s
+
+CMakeFiles/renderer.dir/src/app/image.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/app/image.c.o: src/app/image.c
+CMakeFiles/renderer.dir/src/app/image.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/renderer.dir/src/app/image.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/app/image.c.o -MF CMakeFiles/renderer.dir/src/app/image.c.o.d -o CMakeFiles/renderer.dir/src/app/image.c.o -c /mnt/d/Proyectos/C/Xorg/src/app/image.c
+
+CMakeFiles/renderer.dir/src/app/image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/app/image.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/app/image.c > CMakeFiles/renderer.dir/src/app/image.c.i
+
+CMakeFiles/renderer.dir/src/app/image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/app/image.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/app/image.c -o CMakeFiles/renderer.dir/src/app/image.c.s
 
 # Object files for target renderer
 renderer_OBJECTS = \
-"CMakeFiles/renderer.dir/window.c.o"
+"CMakeFiles/renderer.dir/src/main.c.o" \
+"CMakeFiles/renderer.dir/src/platform/X11/window.c.o" \
+"CMakeFiles/renderer.dir/src/Scene.c.o" \
+"CMakeFiles/renderer.dir/src/app/image.c.o"
 
 # External object files for target renderer
 renderer_EXTERNAL_OBJECTS =
 
-renderer: CMakeFiles/renderer.dir/window.c.o
+renderer: CMakeFiles/renderer.dir/src/main.c.o
+renderer: CMakeFiles/renderer.dir/src/platform/X11/window.c.o
+renderer: CMakeFiles/renderer.dir/src/Scene.c.o
+renderer: CMakeFiles/renderer.dir/src/app/image.c.o
 renderer: CMakeFiles/renderer.dir/build.make
 renderer: CMakeFiles/renderer.dir/compiler_depend.ts
 renderer: /usr/lib/libSM.so
@@ -101,7 +149,7 @@ renderer: /usr/lib/libICE.so
 renderer: /usr/lib/libX11.so
 renderer: /usr/lib/libXext.so
 renderer: CMakeFiles/renderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable renderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/Proyectos/C/Xorg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable renderer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/renderer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

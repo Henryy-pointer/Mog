@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Proyectos/C/Xorg/window.c" "CMakeFiles/renderer.dir/window.c.o" "gcc" "CMakeFiles/renderer.dir/window.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/Scene.c" "CMakeFiles/renderer.dir/src/Scene.c.o" "gcc" "CMakeFiles/renderer.dir/src/Scene.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/app/image.c" "CMakeFiles/renderer.dir/src/app/image.c.o" "gcc" "CMakeFiles/renderer.dir/src/app/image.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/main.c" "CMakeFiles/renderer.dir/src/main.c.o" "gcc" "CMakeFiles/renderer.dir/src/main.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o" "gcc" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o.d"
   "" "renderer" "gcc" "CMakeFiles/renderer.dir/link.d"
   )
 

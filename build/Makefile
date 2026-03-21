@@ -129,29 +129,53 @@ renderer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/build
 .PHONY : renderer/fast
 
-window.o: window.c.o
-.PHONY : window.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-window.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/window.c.o
-.PHONY : window.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-window.i: window.c.i
-.PHONY : window.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-window.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/window.c.i
-.PHONY : window.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-window.s: window.c.s
-.PHONY : window.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-window.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/window.c.s
-.PHONY : window.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/platform/X11/window.o: src/platform/X11/window.c.o
+.PHONY : src/platform/X11/window.o
+
+# target to build an object file
+src/platform/X11/window.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.o
+.PHONY : src/platform/X11/window.c.o
+
+src/platform/X11/window.i: src/platform/X11/window.c.i
+.PHONY : src/platform/X11/window.i
+
+# target to preprocess a source file
+src/platform/X11/window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.i
+.PHONY : src/platform/X11/window.c.i
+
+src/platform/X11/window.s: src/platform/X11/window.c.s
+.PHONY : src/platform/X11/window.s
+
+# target to generate assembly for a file
+src/platform/X11/window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.s
+.PHONY : src/platform/X11/window.c.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... renderer"
-	@echo "... window.o"
-	@echo "... window.i"
-	@echo "... window.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/platform/X11/window.o"
+	@echo "... src/platform/X11/window.i"
+	@echo "... src/platform/X11/window.s"
 .PHONY : help
 
 

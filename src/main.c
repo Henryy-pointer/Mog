@@ -1,0 +1,30 @@
+#include "renderer/renderer.h"
+#include "platform/X11/window.h"
+#include "Scene.h"
+#include "app/Scenes.h"
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+extern Scene *currentScene;
+
+int main(){
+  //framebuffer = malloc(WIDTH * HEIGHT * sizeof(uint32_t));
+  framebuffer = malloc(WIDTH * HEIGHT * sizeof(uint32_t));
+  FrameWindow window;
+  window.width = WIDTH;
+  window.height = HEIGHT;
+  CreateWindow(&window, framebuffer);
+  window.windowShouldClose = 0;
+  SetScene(&ImageScene);
+  while(!window.windowShouldClose){
+    RunSceneUpdate();
+    RunSceneDraw(framebuffer);
+    UpdateWindow(&window);
+  }
+  if(currentScene && currentScene->SceneEnd)currentScene->SceneEnd();
+  //Cleanup();
+  free(framebuffer);
+  printf("freed framebuffer");
+  return 0;
+}

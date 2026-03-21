@@ -1,4 +1,5 @@
-CMakeFiles/renderer.dir/window.c.o: /mnt/d/Proyectos/C/Xorg/window.c \
+CMakeFiles/renderer.dir/src/platform/X11/window.c.o: \
+ /mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c \
  /usr/include/stdc-predef.h /usr/include/X11/Xlib.h \
  /usr/include/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -22,8 +23,12 @@ CMakeFiles/renderer.dir/window.c.o: /mnt/d/Proyectos/C/Xorg/window.c \
  /usr/include/bits/struct_rwlock.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
- /usr/include/X11/keysymdef.h /usr/include/stdio.h \
- /usr/include/bits/libc-header-start.h \
+ /usr/include/X11/keysymdef.h \
+ /mnt/d/Proyectos/C/Xorg/src/platform/X11/window.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
@@ -34,15 +39,12 @@ CMakeFiles/renderer.dir/window.c.o: /mnt/d/Proyectos/C/Xorg/window.c \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /usr/include/stdlib.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/bits/types/once_flag.h /usr/include/bits/stdlib-float.h \
- /usr/include/signal.h /usr/include/bits/signum-generic.h \
- /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/unistd_ext.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/bits/types/once_flag.h \
+ /usr/include/bits/stdlib-float.h /usr/include/signal.h \
+ /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
+ /usr/include/bits/types/sig_atomic_t.h \
  /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
  /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
  /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
