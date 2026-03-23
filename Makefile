@@ -225,6 +225,30 @@ src/platform/X11/window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.s
 .PHONY : src/platform/X11/window.c.s
 
+src/renderer/matrix-functions.o: src/renderer/matrix-functions.c.o
+.PHONY : src/renderer/matrix-functions.o
+
+# target to build an object file
+src/renderer/matrix-functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
+.PHONY : src/renderer/matrix-functions.c.o
+
+src/renderer/matrix-functions.i: src/renderer/matrix-functions.c.i
+.PHONY : src/renderer/matrix-functions.i
+
+# target to preprocess a source file
+src/renderer/matrix-functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.i
+.PHONY : src/renderer/matrix-functions.c.i
+
+src/renderer/matrix-functions.s: src/renderer/matrix-functions.c.s
+.PHONY : src/renderer/matrix-functions.s
+
+# target to generate assembly for a file
+src/renderer/matrix-functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.s
+.PHONY : src/renderer/matrix-functions.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/platform/X11/window.o"
 	@echo "... src/platform/X11/window.i"
 	@echo "... src/platform/X11/window.s"
+	@echo "... src/renderer/matrix-functions.o"
+	@echo "... src/renderer/matrix-functions.i"
+	@echo "... src/renderer/matrix-functions.s"
 .PHONY : help
 
 

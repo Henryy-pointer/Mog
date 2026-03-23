@@ -6,6 +6,7 @@ renderer: \
   CMakeFiles/renderer.dir/src/platform/X11/window.c.o \
   CMakeFiles/renderer.dir/src/Scene.c.o \
   CMakeFiles/renderer.dir/src/app/image.c.o \
+  CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o \
   /usr/lib/libSM.so \
   /usr/lib/libICE.so \
   /usr/lib/libX11.so \
@@ -53,6 +54,8 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.o:
 CMakeFiles/renderer.dir/src/Scene.c.o:
 
 CMakeFiles/renderer.dir/src/app/image.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
 
 /usr/lib/libSM.so:
 

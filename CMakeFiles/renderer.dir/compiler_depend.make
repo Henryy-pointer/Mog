@@ -57,6 +57,7 @@ CMakeFiles/renderer.dir/src/Scene.c.o: src/Scene.c \
 CMakeFiles/renderer.dir/src/app/image.c.o: src/app/image.c \
   src/Scene.h \
   src/app/Scenes.h \
+  src/renderer/renderer.h \
   /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -290,6 +291,28 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.o: src/platform/X11/window.c \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: src/renderer/matrix-functions.c \
+  src/renderer/renderer.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
 renderer: /usr/lib/Scrt1.o \
   /usr/lib/crti.o \
   /usr/lib/crtn.o \
@@ -317,7 +340,8 @@ renderer: /usr/lib/Scrt1.o \
   CMakeFiles/renderer.dir/src/Scene.c.o \
   CMakeFiles/renderer.dir/src/app/image.c.o \
   CMakeFiles/renderer.dir/src/main.c.o \
-  CMakeFiles/renderer.dir/src/platform/X11/window.c.o
+  CMakeFiles/renderer.dir/src/platform/X11/window.c.o \
+  CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
 
 
 CMakeFiles/renderer.dir/src/main.c.o:
@@ -325,6 +349,8 @@ CMakeFiles/renderer.dir/src/main.c.o:
 CMakeFiles/renderer.dir/src/app/image.c.o:
 
 CMakeFiles/renderer.dir/src/Scene.c.o:
+
+/usr/lib32/libuuid.so.1:
 
 /usr/include/bits/types/__FILE.h:
 
@@ -337,6 +363,8 @@ CMakeFiles/renderer.dir/src/Scene.c.o:
 /usr/include/sys/select.h:
 
 /usr/include/bits/environments.h:
+
+src/renderer/matrix-functions.c:
 
 /usr/include/X11/Xosdefs.h:
 
@@ -408,6 +436,12 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.o:
 
 /usr/include/features-time64.h:
 
+src/renderer/renderer.h:
+
+/usr/include/bits/select.h:
+
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
+
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/signum-generic.h:
@@ -466,9 +500,9 @@ src/app/Scenes.h:
 
 /usr/lib/libc_nonshared.a:
 
-/usr/include/bits/types/__fpos_t.h:
-
 /usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -483,10 +517,6 @@ src/main.c:
 /usr/include/sys/types.h:
 
 src/platform/X11/window.h:
-
-/usr/include/bits/select.h:
-
-src/renderer/renderer.h:
 
 /usr/include/stdint.h:
 
@@ -581,5 +611,3 @@ src/platform/X11/window.c:
 /usr/lib/libgcc_s.so:
 
 /usr/lib/libxcb.so.1:
-
-/usr/lib32/libuuid.so.1:

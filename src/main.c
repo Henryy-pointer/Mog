@@ -7,10 +7,11 @@
 #include <stdio.h>
 
 extern Scene *currentScene;
+uint32_t *framebuffer;
 
 int main(){
   //framebuffer = malloc(WIDTH * HEIGHT * sizeof(uint32_t));
-  framebuffer = malloc(WIDTH * HEIGHT * sizeof(uint32_t));
+  uint32_t *framebuffer = malloc(WIDTH * HEIGHT * sizeof(uint32_t));
   FrameWindow window;
   window.width = WIDTH;
   window.height = HEIGHT;
@@ -25,6 +26,6 @@ int main(){
   if(currentScene && currentScene->SceneEnd)currentScene->SceneEnd();
   //Cleanup();
   free(framebuffer);
-  printf("freed framebuffer");
+  printf("freed framebuffer\n");
   return 0;
 }

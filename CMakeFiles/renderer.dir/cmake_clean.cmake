@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/renderer.dir/src/main.c.o.d"
   "CMakeFiles/renderer.dir/src/platform/X11/window.c.o"
   "CMakeFiles/renderer.dir/src/platform/X11/window.c.o.d"
+  "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o"
+  "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d"
   "renderer"
   "renderer.pdb"
 )
