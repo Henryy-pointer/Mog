@@ -1,4 +1,5 @@
 #include "renderer.h"
+#include <math.h>
 
 void vec_x_matrix_affine(Vec4 *vec, Matrix4x4 *mat){
 
@@ -83,5 +84,57 @@ Matrix4x4 matrix_subtraction(Matrix4x4 *matrix1, Matrix4x4 *matrix2){
   r[8] = m1[8]-m2[8]; r[9] = m1[9]-m2[9]; r[10] = m1[10]-m2[10]; r[11] = m1[11]-m2[11];
   r[12] = m1[12]-m2[12]; r[13] = m1[13]-m2[13]; r[14] = m1[14]-m2[14]; r[15] = m1[15]-m2[15];
 
+  return result;
+}
+
+Vec4 vec_subtraction(Vec4 *vec1, Vec4 *vec2){
+  Vec4 result;
+  result.x = vec1->x - vec2->x;
+  result.y = vec1->y - vec2->y;
+  result.z = vec1->z - vec2->z;
+  result.w = vec1->w - vec2->w;
+  return result;
+}
+
+float vec_magnitude(Vec4 *vec){
+  return sqrt(vec->x * vec->x + vec->y * vec->y);
+}
+
+Vec4 vec_normalize(Vec4 vec){
+  Vec4 result;
+  float k = 1/vec_magnitude(&vec);
+  result.x = vec.x * k;
+  result.y = vec.y * k;
+  result.z = vec.z * k;
+  result.w = vec.w * k;
+  return result;
+}
+
+Vec4 vec_cross_product( Vec4 *vec1, Vec4 *vec2){
+  Vec4 result;
+  result.x = (vec1->y * vec2->z) - (vec1->z * vec2->y);
+  result.y = (vec1->z * vec2->x) - (vec1->x * vec2->z);
+  result.z = (vec1->x * vec2->y) - (vec1->y * vec2->x);
+  result.w = vec1->w;
+  return result;
+}
+
+float vec_dot_product(Vec4 *vec1, Vec4 *vec2){
+  return (vec1->x * vec2->x)+(vec1->y * vec2->y)+(vec1->z * vec2->z);
+}
+
+//Camera related functions
+Matrix4x4 lookAt(Camera *cam){
+  Matrix4x4 result;
+  Vec4 forward = vec_normalize(vec_subtraction(&cam->pos, &cam->target));
+  Vec4 right = vec_cross_product(&cam->up, &forward);
+  result = (Matrix4x4){
+    .matrix= {
+      {right.x, right.y, right.z, -vec_dot_product(&right, &cam->pos)},
+      {cam->up.x, cam->up.y, cam->up.z, -vec_dot_product(&cam->up, &cam->pos)},
+      {forward.x, forward.y, forward.z, -vec_dot_product(&forward, &cam->pos)},
+      {0,0,0,1},
+    }
+  };
   return result;
 }

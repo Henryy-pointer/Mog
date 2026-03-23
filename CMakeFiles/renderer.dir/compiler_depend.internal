@@ -55,6 +55,31 @@ CMakeFiles/renderer.dir/src/Scene.c.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
+CMakeFiles/renderer.dir/src/app/cube.c.o
+ /mnt/d/Proyectos/C/Xorg/src/app/cube.c
+ /mnt/d/Proyectos/C/Xorg/src/Scene.h
+ /mnt/d/Proyectos/C/Xorg/src/app/Scenes.h
+ /mnt/d/Proyectos/C/Xorg/src/renderer/renderer.h
+ /usr/include/bits/libc-header-start.h
+ /usr/include/bits/long-double.h
+ /usr/include/bits/stdint-intn.h
+ /usr/include/bits/stdint-least.h
+ /usr/include/bits/stdint-uintn.h
+ /usr/include/bits/time64.h
+ /usr/include/bits/timesize.h
+ /usr/include/bits/types.h
+ /usr/include/bits/typesizes.h
+ /usr/include/bits/wchar.h
+ /usr/include/bits/wordsize.h
+ /usr/include/features-time64.h
+ /usr/include/features.h
+ /usr/include/gnu/stubs-64.h
+ /usr/include/gnu/stubs.h
+ /usr/include/stdc-predef.h
+ /usr/include/stdint.h
+ /usr/include/sys/cdefs.h
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
 CMakeFiles/renderer.dir/src/app/image.c.o
  /mnt/d/Proyectos/C/Xorg/src/app/image.c
  /mnt/d/Proyectos/C/Xorg/src/Scene.h
@@ -298,8 +323,20 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.o
 CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
  /mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c
  /mnt/d/Proyectos/C/Xorg/src/renderer/renderer.h
+ /usr/include/bits/floatn-common.h
+ /usr/include/bits/floatn.h
+ /usr/include/bits/flt-eval-method.h
+ /usr/include/bits/fp-fast.h
+ /usr/include/bits/fp-logb.h
+ /usr/include/bits/iscanonical.h
  /usr/include/bits/libc-header-start.h
+ /usr/include/bits/libm-simd-decl-stubs.h
  /usr/include/bits/long-double.h
+ /usr/include/bits/math-vector.h
+ /usr/include/bits/mathcalls-helper-functions.h
+ /usr/include/bits/mathcalls-macros.h
+ /usr/include/bits/mathcalls-narrow.h
+ /usr/include/bits/mathcalls.h
  /usr/include/bits/stdint-intn.h
  /usr/include/bits/stdint-least.h
  /usr/include/bits/stdint-uintn.h
@@ -313,6 +350,7 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
  /usr/include/features.h
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
+ /usr/include/math.h
  /usr/include/stdc-predef.h
  /usr/include/stdint.h
  /usr/include/sys/cdefs.h
@@ -325,6 +363,7 @@ renderer
  /usr/lib/libc.so
  /usr/lib/libgcc_s.so
  /usr/lib/libgcc_s.so.1
+ /usr/lib/libm.so
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a
@@ -337,6 +376,8 @@ renderer
  /usr/lib/libXext.so
  /usr/lib/libc.so.6
  /usr/lib/libc_nonshared.a
+ /usr/lib/libm.so.6
+ /usr/lib/libmvec.so.1
  /usr/lib/libuuid.so.1
  /usr/lib/libxcb.so.1
  /usr/lib32/libXau.so.6
@@ -344,6 +385,7 @@ renderer
  /usr/lib32/libuuid.so.1
  /usr/lib32/libxcb.so.1
  /mnt/d/Proyectos/C/Xorg/CMakeFiles/renderer.dir/src/Scene.c.o
+ /mnt/d/Proyectos/C/Xorg/CMakeFiles/renderer.dir/src/app/cube.c.o
  /mnt/d/Proyectos/C/Xorg/CMakeFiles/renderer.dir/src/app/image.c.o
  /mnt/d/Proyectos/C/Xorg/CMakeFiles/renderer.dir/src/main.c.o
  /mnt/d/Proyectos/C/Xorg/CMakeFiles/renderer.dir/src/platform/X11/window.c.o

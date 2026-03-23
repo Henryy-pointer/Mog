@@ -6,6 +6,7 @@ set(SOURCES
   src/platform/X11/window.c
   src/Scene.c
   src/app/image.c
+  src/app/cube.c
   src/renderer/matrix-functions.c
 )
 
@@ -18,4 +19,4 @@ src/
 src/renderer
 src/platform/X11
 )
-target_link_libraries(renderer ${X11_LIBRARIES})
+target_link_libraries(renderer ${X11_LIBRARIES} m)

@@ -3,5 +3,6 @@
 #include "Scene.h"
 
 extern Scene ImageScene;
+extern Scene Cube;
 
 #endif

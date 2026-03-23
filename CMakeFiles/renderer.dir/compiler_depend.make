@@ -54,6 +54,30 @@ CMakeFiles/renderer.dir/src/Scene.c.o: src/Scene.c \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
+CMakeFiles/renderer.dir/src/app/cube.c.o: src/app/cube.c \
+  src/Scene.h \
+  src/app/Scenes.h \
+  src/renderer/renderer.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
 CMakeFiles/renderer.dir/src/app/image.c.o: src/app/image.c \
   src/Scene.h \
   src/app/Scenes.h \
@@ -293,8 +317,20 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.o: src/platform/X11/window.c \
 
 CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: src/renderer/matrix-functions.c \
   src/renderer/renderer.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
@@ -308,6 +344,7 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: src/renderer/matrix-f
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/sys/cdefs.h \
@@ -319,6 +356,7 @@ renderer: /usr/lib/Scrt1.o \
   /usr/lib/libc.so \
   /usr/lib/libgcc_s.so \
   /usr/lib/libgcc_s.so.1 \
+  /usr/lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
@@ -331,6 +369,8 @@ renderer: /usr/lib/Scrt1.o \
   /usr/lib/libXext.so \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
+  /usr/lib/libm.so.6 \
+  /usr/lib/libmvec.so.1 \
   /usr/lib/libuuid.so.1 \
   /usr/lib/libxcb.so.1 \
   /usr/lib32/libXau.so.6 \
@@ -338,6 +378,7 @@ renderer: /usr/lib/Scrt1.o \
   /usr/lib32/libuuid.so.1 \
   /usr/lib32/libxcb.so.1 \
   CMakeFiles/renderer.dir/src/Scene.c.o \
+  CMakeFiles/renderer.dir/src/app/cube.c.o \
   CMakeFiles/renderer.dir/src/app/image.c.o \
   CMakeFiles/renderer.dir/src/main.c.o \
   CMakeFiles/renderer.dir/src/platform/X11/window.c.o \
@@ -348,15 +389,39 @@ CMakeFiles/renderer.dir/src/main.c.o:
 
 CMakeFiles/renderer.dir/src/app/image.c.o:
 
+CMakeFiles/renderer.dir/src/app/cube.c.o:
+
 CMakeFiles/renderer.dir/src/Scene.c.o:
 
 /usr/lib32/libuuid.so.1:
 
+/usr/lib32/libXdmcp.so.6:
+
+/usr/lib32/libXau.so.6:
+
+/usr/lib/libuuid.so.1:
+
+/usr/lib/libmvec.so.1:
+
+/usr/lib/libc_nonshared.a:
+
+/usr/lib/libc.so.6:
+
+/usr/lib/libXdmcp.so.6:
+
+/usr/lib/libX11.so:
+
+/usr/lib/libSM.so:
+
+/usr/lib/libICE.so:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
 /usr/include/bits/types/__FILE.h:
 
-/usr/include/X11/X.h:
+src/app/cube.c:
 
-/usr/include/bits/types/FILE.h:
+/usr/include/X11/Xutil.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
@@ -374,13 +439,21 @@ src/app/image.c:
 
 /usr/include/bits/sigaction.h:
 
-/usr/include/bits/types/struct_timeval.h:
+/usr/include/X11/X.h:
 
-/usr/lib32/libXdmcp.so.6:
+/usr/include/bits/iscanonical.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/types/struct_timeval.h:
 
 /usr/include/bits/wchar.h:
 
 /usr/include/bits/wordsize.h:
+
+/usr/lib/libXau.so.6:
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/include/endian.h:
 
@@ -392,9 +465,13 @@ src/app/image.c:
 
 /usr/include/stdio.h:
 
+/usr/include/bits/mathcalls-narrow.h:
+
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
@@ -430,10 +507,6 @@ src/app/image.c:
 
 src/Scene.h:
 
-CMakeFiles/renderer.dir/src/platform/X11/window.c.o:
-
-/usr/include/bits/types/__fpos64_t.h:
-
 /usr/include/features-time64.h:
 
 src/renderer/renderer.h:
@@ -450,8 +523,6 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
 
 /usr/include/bits/long-double.h:
 
-/usr/lib/libuuid.so.1:
-
 /usr/include/bits/floatn-common.h:
 
 /usr/include/features.h:
@@ -462,13 +533,17 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
 
 /usr/include/bits/waitstatus.h:
 
-/usr/lib32/libXau.so.6:
-
 src/Scene.c:
+
+/usr/include/bits/mathcalls-macros.h:
 
 /usr/include/sys/cdefs.h:
 
 src/app/Scenes.h:
+
+/usr/lib/libxcb.so.1:
+
+/usr/lib/libgcc_s.so:
 
 /usr/include/bits/stdint-intn.h:
 
@@ -498,11 +573,9 @@ src/app/Scenes.h:
 
 /usr/include/bits/siginfo-arch.h:
 
-/usr/lib/libc_nonshared.a:
+CMakeFiles/renderer.dir/src/platform/X11/window.c.o:
 
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/bits/types/__fpos64_t.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -512,8 +585,6 @@ src/main.c:
 
 /usr/include/X11/keysym.h:
 
-/usr/lib/ld-linux-x86-64.so.2:
-
 /usr/include/sys/types.h:
 
 src/platform/X11/window.h:
@@ -522,17 +593,13 @@ src/platform/X11/window.h:
 
 /usr/include/X11/Xlib.h:
 
-/usr/include/X11/Xutil.h:
-
-/usr/lib/libICE.so:
-
 /usr/lib32/libxcb.so.1:
 
 /usr/include/X11/keysymdef.h:
 
-src/platform/X11/window.c:
+/usr/lib/libm.so.6:
 
-/usr/lib/libc.so.6:
+src/platform/X11/window.c:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
 
@@ -548,6 +615,8 @@ src/platform/X11/window.c:
 
 /usr/include/bits/signal_ext.h:
 
+/usr/include/bits/math-vector.h:
+
 /usr/include/bits/signum-arch.h:
 
 /usr/include/bits/sigevent-consts.h:
@@ -562,15 +631,17 @@ src/platform/X11/window.c:
 
 /usr/include/bits/types/sigevent_t.h:
 
-/usr/include/bits/typesizes.h:
-
 /usr/include/bits/types/sig_atomic_t.h:
+
+/usr/include/bits/typesizes.h:
 
 /usr/lib/crti.o:
 
 /usr/include/bits/types/siginfo_t.h:
 
 /usr/include/bits/types/sigval_t.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
@@ -582,6 +653,22 @@ src/platform/X11/window.c:
 
 /usr/include/unistd.h:
 
+/usr/include/bits/types/FILE.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/lib/libc.so:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/mathcalls.h:
+
 /usr/include/bits/types/timer_t.h:
 
 /usr/lib/Scrt1.o:
@@ -590,24 +677,10 @@ src/platform/X11/window.c:
 
 /usr/lib/crtn.o:
 
-/usr/lib/libc.so:
-
 /usr/include/bits/confname.h:
 
 /usr/lib/libgcc_s.so.1:
 
+/usr/lib/libm.so:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/usr/lib/libSM.so:
-
-/usr/lib/libX11.so:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/lib/libXau.so.6:
-
-/usr/lib/libXdmcp.so.6:
-
-/usr/lib/libgcc_s.so:
-
-/usr/lib/libxcb.so.1:

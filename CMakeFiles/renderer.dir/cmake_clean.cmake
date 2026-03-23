@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/renderer.dir/link.d"
   "CMakeFiles/renderer.dir/src/Scene.c.o"
   "CMakeFiles/renderer.dir/src/Scene.c.o.d"
+  "CMakeFiles/renderer.dir/src/app/cube.c.o"
+  "CMakeFiles/renderer.dir/src/app/cube.c.o.d"
   "CMakeFiles/renderer.dir/src/app/image.c.o"
   "CMakeFiles/renderer.dir/src/app/image.c.o.d"
   "CMakeFiles/renderer.dir/src/main.c.o"

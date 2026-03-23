@@ -153,6 +153,30 @@ src/Scene.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/Scene.c.s
 .PHONY : src/Scene.c.s
 
+src/app/cube.o: src/app/cube.c.o
+.PHONY : src/app/cube.o
+
+# target to build an object file
+src/app/cube.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/cube.c.o
+.PHONY : src/app/cube.c.o
+
+src/app/cube.i: src/app/cube.c.i
+.PHONY : src/app/cube.i
+
+# target to preprocess a source file
+src/app/cube.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/cube.c.i
+.PHONY : src/app/cube.c.i
+
+src/app/cube.s: src/app/cube.c.s
+.PHONY : src/app/cube.s
+
+# target to generate assembly for a file
+src/app/cube.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/cube.c.s
+.PHONY : src/app/cube.c.s
+
 src/app/image.o: src/app/image.c.o
 .PHONY : src/app/image.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... src/Scene.o"
 	@echo "... src/Scene.i"
 	@echo "... src/Scene.s"
+	@echo "... src/app/cube.o"
+	@echo "... src/app/cube.i"
+	@echo "... src/app/cube.s"
 	@echo "... src/app/image.o"
 	@echo "... src/app/image.i"
 	@echo "... src/app/image.s"

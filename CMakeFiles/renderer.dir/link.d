@@ -6,11 +6,17 @@ renderer: \
   CMakeFiles/renderer.dir/src/platform/X11/window.c.o \
   CMakeFiles/renderer.dir/src/Scene.c.o \
   CMakeFiles/renderer.dir/src/app/image.c.o \
+  CMakeFiles/renderer.dir/src/app/cube.c.o \
   CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o \
   /usr/lib/libSM.so \
   /usr/lib/libICE.so \
   /usr/lib/libX11.so \
   /usr/lib/libXext.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
+  /usr/lib/libm.so.6 \
+  /usr/lib/libmvec.so.1 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
@@ -55,6 +61,8 @@ CMakeFiles/renderer.dir/src/Scene.c.o:
 
 CMakeFiles/renderer.dir/src/app/image.c.o:
 
+CMakeFiles/renderer.dir/src/app/cube.c.o:
+
 CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
 
 /usr/lib/libSM.so:
@@ -64,6 +72,16 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
 /usr/lib/libX11.so:
 
 /usr/lib/libXext.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so:
+
+/usr/lib/libm.so.6:
+
+/usr/lib/libmvec.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
