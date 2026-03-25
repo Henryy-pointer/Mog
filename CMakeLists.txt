@@ -8,6 +8,10 @@ set(SOURCES
   src/app/image.c
   src/app/cube.c
   src/renderer/matrix-functions.c
+  src/renderer/camera.c
+  src/renderer/model-transform.c
+  src/renderer/projection.c
+  src/renderer/rasterizer.c
 )
 
 add_executable(renderer ${SOURCES})

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/d/Proyectos/C/Xorg/src
+C_INCLUDES = -I/mnt/d/Proyectos/C/Xorg/src -I/mnt/d/Proyectos/C/Xorg/src/renderer -I/mnt/d/Proyectos/C/Xorg/src/platform/X11
 
 C_FLAGS = 
 

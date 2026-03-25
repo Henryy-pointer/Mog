@@ -8,6 +8,10 @@ renderer: \
   CMakeFiles/renderer.dir/src/app/image.c.o \
   CMakeFiles/renderer.dir/src/app/cube.c.o \
   CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o \
+  CMakeFiles/renderer.dir/src/renderer/camera.c.o \
+  CMakeFiles/renderer.dir/src/renderer/model-transform.c.o \
+  CMakeFiles/renderer.dir/src/renderer/projection.c.o \
+  CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o \
   /usr/lib/libSM.so \
   /usr/lib/libICE.so \
   /usr/lib/libX11.so \
@@ -64,6 +68,14 @@ CMakeFiles/renderer.dir/src/app/image.c.o:
 CMakeFiles/renderer.dir/src/app/cube.c.o:
 
 CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/camera.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/projection.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o:
 
 /usr/lib/libSM.so:
 

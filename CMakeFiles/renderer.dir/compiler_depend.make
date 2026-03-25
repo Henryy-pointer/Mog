@@ -58,14 +58,24 @@ CMakeFiles/renderer.dir/src/app/cube.c.o: src/app/cube.c \
   src/Scene.h \
   src/app/Scenes.h \
   src/renderer/renderer.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
@@ -75,7 +85,10 @@ CMakeFiles/renderer.dir/src/app/cube.c.o: src/app/cube.c \
   /usr/include/gnu/stubs.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
 CMakeFiles/renderer.dir/src/app/image.c.o: src/app/image.c \
@@ -315,7 +328,75 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.o: src/platform/X11/window.c \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
+CMakeFiles/renderer.dir/src/renderer/camera.c.o: src/renderer/camera.c \
+  src/renderer/renderer.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
 CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: src/renderer/matrix-functions.c \
+  src/renderer/renderer.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.o: src/renderer/model-transform.c \
   src/renderer/renderer.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
@@ -345,6 +426,63 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: src/renderer/matrix-f
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
+CMakeFiles/renderer.dir/src/renderer/projection.c.o: src/renderer/projection.c \
+  src/renderer/renderer.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o: src/renderer/rasterizer.c \
+  src/renderer/renderer.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/sys/cdefs.h \
@@ -382,8 +520,18 @@ renderer: /usr/lib/Scrt1.o \
   CMakeFiles/renderer.dir/src/app/image.c.o \
   CMakeFiles/renderer.dir/src/main.c.o \
   CMakeFiles/renderer.dir/src/platform/X11/window.c.o \
-  CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
+  CMakeFiles/renderer.dir/src/renderer/camera.c.o \
+  CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o \
+  CMakeFiles/renderer.dir/src/renderer/model-transform.c.o \
+  CMakeFiles/renderer.dir/src/renderer/projection.c.o \
+  CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o
 
+
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/projection.c.o:
+
+CMakeFiles/renderer.dir/src/renderer/camera.c.o:
 
 CMakeFiles/renderer.dir/src/main.c.o:
 
@@ -417,25 +565,23 @@ CMakeFiles/renderer.dir/src/Scene.c.o:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
+
+/usr/lib/libm.so:
+
 /usr/include/bits/types/__FILE.h:
 
 src/app/cube.c:
 
 /usr/include/X11/Xutil.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
 /usr/include/sys/select.h:
 
 /usr/include/bits/environments.h:
 
-src/renderer/matrix-functions.c:
-
 /usr/include/X11/Xosdefs.h:
-
-src/app/image.c:
-
-/usr/include/stdlib.h:
 
 /usr/include/bits/sigaction.h:
 
@@ -467,6 +613,10 @@ src/app/image.c:
 
 /usr/include/bits/mathcalls-narrow.h:
 
+/usr/include/stdlib.h:
+
+src/app/image.c:
+
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/struct_rwlock.h:
@@ -489,6 +639,8 @@ src/app/image.c:
 
 /usr/include/bits/endian.h:
 
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.o:
+
 /usr/include/bits/types/__sigval_t.h:
 
 /usr/lib/libXext.so:
@@ -506,6 +658,10 @@ src/app/image.c:
 /usr/include/bits/siginfo-consts.h:
 
 src/Scene.h:
+
+CMakeFiles/renderer.dir/src/platform/X11/window.c.o:
+
+/usr/include/bits/types/__fpos64_t.h:
 
 /usr/include/features-time64.h:
 
@@ -553,6 +709,8 @@ src/app/Scenes.h:
 
 /usr/include/bits/stdint-least.h:
 
+src/renderer/rasterizer.c:
+
 /usr/include/bits/types/sigset_t.h:
 
 /usr/include/bits/thread-shared-types.h:
@@ -572,10 +730,6 @@ src/app/Scenes.h:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
 
 /usr/include/bits/siginfo-arch.h:
-
-CMakeFiles/renderer.dir/src/platform/X11/window.c.o:
-
-/usr/include/bits/types/__fpos64_t.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -653,6 +807,8 @@ src/platform/X11/window.c:
 
 /usr/include/unistd.h:
 
+src/renderer/camera.c:
+
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/flt-eval-method.h:
@@ -669,6 +825,12 @@ src/platform/X11/window.c:
 
 /usr/include/bits/mathcalls.h:
 
+src/renderer/model-transform.c:
+
+src/renderer/matrix-functions.c:
+
+src/renderer/projection.c:
+
 /usr/include/bits/types/timer_t.h:
 
 /usr/lib/Scrt1.o:
@@ -680,7 +842,3 @@ src/platform/X11/window.c:
 /usr/include/bits/confname.h:
 
 /usr/lib/libgcc_s.so.1:
-
-/usr/lib/libm.so:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:

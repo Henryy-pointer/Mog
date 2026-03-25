@@ -249,6 +249,30 @@ src/platform/X11/window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.s
 .PHONY : src/platform/X11/window.c.s
 
+src/renderer/camera.o: src/renderer/camera.c.o
+.PHONY : src/renderer/camera.o
+
+# target to build an object file
+src/renderer/camera.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/camera.c.o
+.PHONY : src/renderer/camera.c.o
+
+src/renderer/camera.i: src/renderer/camera.c.i
+.PHONY : src/renderer/camera.i
+
+# target to preprocess a source file
+src/renderer/camera.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/camera.c.i
+.PHONY : src/renderer/camera.c.i
+
+src/renderer/camera.s: src/renderer/camera.c.s
+.PHONY : src/renderer/camera.s
+
+# target to generate assembly for a file
+src/renderer/camera.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/camera.c.s
+.PHONY : src/renderer/camera.c.s
+
 src/renderer/matrix-functions.o: src/renderer/matrix-functions.c.o
 .PHONY : src/renderer/matrix-functions.o
 
@@ -272,6 +296,78 @@ src/renderer/matrix-functions.s: src/renderer/matrix-functions.c.s
 src/renderer/matrix-functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.s
 .PHONY : src/renderer/matrix-functions.c.s
+
+src/renderer/model-transform.o: src/renderer/model-transform.c.o
+.PHONY : src/renderer/model-transform.o
+
+# target to build an object file
+src/renderer/model-transform.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/model-transform.c.o
+.PHONY : src/renderer/model-transform.c.o
+
+src/renderer/model-transform.i: src/renderer/model-transform.c.i
+.PHONY : src/renderer/model-transform.i
+
+# target to preprocess a source file
+src/renderer/model-transform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/model-transform.c.i
+.PHONY : src/renderer/model-transform.c.i
+
+src/renderer/model-transform.s: src/renderer/model-transform.c.s
+.PHONY : src/renderer/model-transform.s
+
+# target to generate assembly for a file
+src/renderer/model-transform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/model-transform.c.s
+.PHONY : src/renderer/model-transform.c.s
+
+src/renderer/projection.o: src/renderer/projection.c.o
+.PHONY : src/renderer/projection.o
+
+# target to build an object file
+src/renderer/projection.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/projection.c.o
+.PHONY : src/renderer/projection.c.o
+
+src/renderer/projection.i: src/renderer/projection.c.i
+.PHONY : src/renderer/projection.i
+
+# target to preprocess a source file
+src/renderer/projection.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/projection.c.i
+.PHONY : src/renderer/projection.c.i
+
+src/renderer/projection.s: src/renderer/projection.c.s
+.PHONY : src/renderer/projection.s
+
+# target to generate assembly for a file
+src/renderer/projection.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/projection.c.s
+.PHONY : src/renderer/projection.c.s
+
+src/renderer/rasterizer.o: src/renderer/rasterizer.c.o
+.PHONY : src/renderer/rasterizer.o
+
+# target to build an object file
+src/renderer/rasterizer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o
+.PHONY : src/renderer/rasterizer.c.o
+
+src/renderer/rasterizer.i: src/renderer/rasterizer.c.i
+.PHONY : src/renderer/rasterizer.i
+
+# target to preprocess a source file
+src/renderer/rasterizer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/rasterizer.c.i
+.PHONY : src/renderer/rasterizer.c.i
+
+src/renderer/rasterizer.s: src/renderer/rasterizer.c.s
+.PHONY : src/renderer/rasterizer.s
+
+# target to generate assembly for a file
+src/renderer/rasterizer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/rasterizer.c.s
+.PHONY : src/renderer/rasterizer.c.s
 
 # Help Target
 help:
@@ -297,9 +393,21 @@ help:
 	@echo "... src/platform/X11/window.o"
 	@echo "... src/platform/X11/window.i"
 	@echo "... src/platform/X11/window.s"
+	@echo "... src/renderer/camera.o"
+	@echo "... src/renderer/camera.i"
+	@echo "... src/renderer/camera.s"
 	@echo "... src/renderer/matrix-functions.o"
 	@echo "... src/renderer/matrix-functions.i"
 	@echo "... src/renderer/matrix-functions.s"
+	@echo "... src/renderer/model-transform.o"
+	@echo "... src/renderer/model-transform.i"
+	@echo "... src/renderer/model-transform.s"
+	@echo "... src/renderer/projection.o"
+	@echo "... src/renderer/projection.i"
+	@echo "... src/renderer/projection.s"
+	@echo "... src/renderer/rasterizer.o"
+	@echo "... src/renderer/rasterizer.i"
+	@echo "... src/renderer/rasterizer.s"
 .PHONY : help
 
 

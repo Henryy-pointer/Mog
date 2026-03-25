@@ -100,16 +100,144 @@ CMakeFiles/renderer.dir/src/platform/X11/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/platform/X11/window.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c -o CMakeFiles/renderer.dir/src/platform/X11/window.c.s
 
+CMakeFiles/renderer.dir/src/Scene.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/Scene.c.o: /mnt/d/Proyectos/C/Xorg/src/Scene.c
+CMakeFiles/renderer.dir/src/Scene.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/renderer.dir/src/Scene.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/Scene.c.o -MF CMakeFiles/renderer.dir/src/Scene.c.o.d -o CMakeFiles/renderer.dir/src/Scene.c.o -c /mnt/d/Proyectos/C/Xorg/src/Scene.c
+
+CMakeFiles/renderer.dir/src/Scene.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/Scene.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/Scene.c > CMakeFiles/renderer.dir/src/Scene.c.i
+
+CMakeFiles/renderer.dir/src/Scene.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/Scene.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/Scene.c -o CMakeFiles/renderer.dir/src/Scene.c.s
+
+CMakeFiles/renderer.dir/src/app/image.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/app/image.c.o: /mnt/d/Proyectos/C/Xorg/src/app/image.c
+CMakeFiles/renderer.dir/src/app/image.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/renderer.dir/src/app/image.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/app/image.c.o -MF CMakeFiles/renderer.dir/src/app/image.c.o.d -o CMakeFiles/renderer.dir/src/app/image.c.o -c /mnt/d/Proyectos/C/Xorg/src/app/image.c
+
+CMakeFiles/renderer.dir/src/app/image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/app/image.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/app/image.c > CMakeFiles/renderer.dir/src/app/image.c.i
+
+CMakeFiles/renderer.dir/src/app/image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/app/image.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/app/image.c -o CMakeFiles/renderer.dir/src/app/image.c.s
+
+CMakeFiles/renderer.dir/src/app/cube.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/app/cube.c.o: /mnt/d/Proyectos/C/Xorg/src/app/cube.c
+CMakeFiles/renderer.dir/src/app/cube.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/renderer.dir/src/app/cube.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/app/cube.c.o -MF CMakeFiles/renderer.dir/src/app/cube.c.o.d -o CMakeFiles/renderer.dir/src/app/cube.c.o -c /mnt/d/Proyectos/C/Xorg/src/app/cube.c
+
+CMakeFiles/renderer.dir/src/app/cube.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/app/cube.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/app/cube.c > CMakeFiles/renderer.dir/src/app/cube.c.i
+
+CMakeFiles/renderer.dir/src/app/cube.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/app/cube.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/app/cube.c -o CMakeFiles/renderer.dir/src/app/cube.c.s
+
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: /mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o -MF CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d -o CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o -c /mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c
+
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c > CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.i
+
+CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c -o CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.s
+
+CMakeFiles/renderer.dir/src/renderer/camera.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/renderer/camera.c.o: /mnt/d/Proyectos/C/Xorg/src/renderer/camera.c
+CMakeFiles/renderer.dir/src/renderer/camera.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/renderer.dir/src/renderer/camera.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/renderer/camera.c.o -MF CMakeFiles/renderer.dir/src/renderer/camera.c.o.d -o CMakeFiles/renderer.dir/src/renderer/camera.c.o -c /mnt/d/Proyectos/C/Xorg/src/renderer/camera.c
+
+CMakeFiles/renderer.dir/src/renderer/camera.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/renderer/camera.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/renderer/camera.c > CMakeFiles/renderer.dir/src/renderer/camera.c.i
+
+CMakeFiles/renderer.dir/src/renderer/camera.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/renderer/camera.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/renderer/camera.c -o CMakeFiles/renderer.dir/src/renderer/camera.c.s
+
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.o: /mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/renderer.dir/src/renderer/model-transform.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/renderer/model-transform.c.o -MF CMakeFiles/renderer.dir/src/renderer/model-transform.c.o.d -o CMakeFiles/renderer.dir/src/renderer/model-transform.c.o -c /mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c
+
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/renderer/model-transform.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c > CMakeFiles/renderer.dir/src/renderer/model-transform.c.i
+
+CMakeFiles/renderer.dir/src/renderer/model-transform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/renderer/model-transform.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c -o CMakeFiles/renderer.dir/src/renderer/model-transform.c.s
+
+CMakeFiles/renderer.dir/src/renderer/projection.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/renderer/projection.c.o: /mnt/d/Proyectos/C/Xorg/src/renderer/projection.c
+CMakeFiles/renderer.dir/src/renderer/projection.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/renderer.dir/src/renderer/projection.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/renderer/projection.c.o -MF CMakeFiles/renderer.dir/src/renderer/projection.c.o.d -o CMakeFiles/renderer.dir/src/renderer/projection.c.o -c /mnt/d/Proyectos/C/Xorg/src/renderer/projection.c
+
+CMakeFiles/renderer.dir/src/renderer/projection.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/renderer/projection.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/renderer/projection.c > CMakeFiles/renderer.dir/src/renderer/projection.c.i
+
+CMakeFiles/renderer.dir/src/renderer/projection.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/renderer/projection.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/renderer/projection.c -o CMakeFiles/renderer.dir/src/renderer/projection.c.s
+
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o: CMakeFiles/renderer.dir/flags.make
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o: /mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o: CMakeFiles/renderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o -MF CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o.d -o CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o -c /mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c
+
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/renderer.dir/src/renderer/rasterizer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c > CMakeFiles/renderer.dir/src/renderer/rasterizer.c.i
+
+CMakeFiles/renderer.dir/src/renderer/rasterizer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/renderer.dir/src/renderer/rasterizer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c -o CMakeFiles/renderer.dir/src/renderer/rasterizer.c.s
+
 # Object files for target renderer
 renderer_OBJECTS = \
 "CMakeFiles/renderer.dir/src/main.c.o" \
-"CMakeFiles/renderer.dir/src/platform/X11/window.c.o"
+"CMakeFiles/renderer.dir/src/platform/X11/window.c.o" \
+"CMakeFiles/renderer.dir/src/Scene.c.o" \
+"CMakeFiles/renderer.dir/src/app/image.c.o" \
+"CMakeFiles/renderer.dir/src/app/cube.c.o" \
+"CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o" \
+"CMakeFiles/renderer.dir/src/renderer/camera.c.o" \
+"CMakeFiles/renderer.dir/src/renderer/model-transform.c.o" \
+"CMakeFiles/renderer.dir/src/renderer/projection.c.o" \
+"CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o"
 
 # External object files for target renderer
 renderer_EXTERNAL_OBJECTS =
 
 renderer: CMakeFiles/renderer.dir/src/main.c.o
 renderer: CMakeFiles/renderer.dir/src/platform/X11/window.c.o
+renderer: CMakeFiles/renderer.dir/src/Scene.c.o
+renderer: CMakeFiles/renderer.dir/src/app/image.c.o
+renderer: CMakeFiles/renderer.dir/src/app/cube.c.o
+renderer: CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
+renderer: CMakeFiles/renderer.dir/src/renderer/camera.c.o
+renderer: CMakeFiles/renderer.dir/src/renderer/model-transform.c.o
+renderer: CMakeFiles/renderer.dir/src/renderer/projection.c.o
+renderer: CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o
 renderer: CMakeFiles/renderer.dir/build.make
 renderer: CMakeFiles/renderer.dir/compiler_depend.ts
 renderer: /usr/lib/libSM.so
@@ -117,7 +245,7 @@ renderer: /usr/lib/libICE.so
 renderer: /usr/lib/libX11.so
 renderer: /usr/lib/libXext.so
 renderer: CMakeFiles/renderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable renderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/Proyectos/C/Xorg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable renderer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/renderer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

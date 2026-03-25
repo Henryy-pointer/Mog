@@ -1,5 +1,6 @@
 #ifndef RENDERER_H
 #define RENDERER_H
+#define DEBUG
 
 #include <stdint.h>
 
@@ -29,6 +30,8 @@ typedef struct {
   Vec4 pos;
   Vec4 target;
   Vec4 up;
+  float far;
+  float near;
 }Camera;
 
 // Vector * Matrix Functions 
@@ -50,4 +53,15 @@ float vec_dot_product(Vec4 *vec1, Vec4 *vec2);
 //Camera Matrix function
 Matrix4x4 lookAt(Camera *cam);
 
+//get model matrix functions
+Matrix4x4 get_rotation_matrix(Vec4 *rotation);
+Matrix4x4 transform(Vec4 *scale, Vec4 *rotation, Vec4 *position);
+
+//BIG PROJECTION MATRIX (DECRYPTED FROM THE EVIL WIKIPEDIA)
+Matrix4x4 get_projection_matrix(Camera *camera, Vec4 *vec);
+
+
+//WE ARE FINALLY IN 2D SPACE NIGGERSSSSSSSSS, HERE COMES THE RASTERIZER
+void perspective_divide(Vec4 *vec);
+Vec4 viewport_transform(Vec4 *vec);
 #endif

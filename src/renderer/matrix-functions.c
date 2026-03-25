@@ -1,6 +1,8 @@
 #include "renderer.h"
 #include <math.h>
-
+#ifdef DEBUG
+#include <stdio.h>
+#endif
 void vec_x_matrix_affine(Vec4 *vec, Matrix4x4 *mat){
 
   float x = vec->vec4[0];
@@ -11,7 +13,12 @@ void vec_x_matrix_affine(Vec4 *vec, Matrix4x4 *mat){
   vec->vec4[0] = mat->m[0] * x + mat->m[1] * y + mat->m[2] * z + mat->m[3] * w;
   vec->vec4[1] = mat->m[4] * x + mat->m[5] * y + mat->m[6] * z + mat->m[7] * w;
   vec->vec4[2] = mat->m[8] * x + mat->m[9] * y + mat->m[10] * z + mat->m[11] * w;
+
+ #ifdef DEBUG
+  printf("x:%f y:%f z:%f w:%f\n", vec->x, vec->y, vec->z, vec->w);
+ #endif
 }
+
 
 void vec_x_matrix_projective(Vec4 *vec, Matrix4x4 *mat){
   float x = vec->vec4[0];
@@ -24,6 +31,13 @@ void vec_x_matrix_projective(Vec4 *vec, Matrix4x4 *mat){
   vec->vec4[2] = mat->m[8] * x + mat->m[9] * y + mat->m[10] * z + mat->m[11] * w;
   vec->vec4[3] = mat->m[12] * x + mat->m[13] * y + mat->m[14] * z + mat->m[15] * w;
 
+  //if(vec->w != 0.0f){
+    vec->x /= vec->w; vec->y /= vec->w; vec->z /= vec->w;
+  //}
+
+  #ifdef DEBUG
+  printf("x:%f y:%f z:%f w:%f\n", vec->x, vec->y, vec->z, vec->w);
+  #endif
 }
 
 Matrix4x4 matrix_multiplication(Matrix4x4 *matrix1, Matrix4x4 *matrix2){
@@ -97,7 +111,7 @@ Vec4 vec_subtraction(Vec4 *vec1, Vec4 *vec2){
 }
 
 float vec_magnitude(Vec4 *vec){
-  return sqrt(vec->x * vec->x + vec->y * vec->y);
+  return sqrt(vec->x * vec->x + vec->y * vec->y + vec->z * vec->z);
 }
 
 Vec4 vec_normalize(Vec4 vec){
@@ -123,18 +137,3 @@ float vec_dot_product(Vec4 *vec1, Vec4 *vec2){
   return (vec1->x * vec2->x)+(vec1->y * vec2->y)+(vec1->z * vec2->z);
 }
 
-//Camera related functions
-Matrix4x4 lookAt(Camera *cam){
-  Matrix4x4 result;
-  Vec4 forward = vec_normalize(vec_subtraction(&cam->pos, &cam->target));
-  Vec4 right = vec_cross_product(&cam->up, &forward);
-  result = (Matrix4x4){
-    .matrix= {
-      {right.x, right.y, right.z, -vec_dot_product(&right, &cam->pos)},
-      {cam->up.x, cam->up.y, cam->up.z, -vec_dot_product(&cam->up, &cam->pos)},
-      {forward.x, forward.y, forward.z, -vec_dot_product(&forward, &cam->pos)},
-      {0,0,0,1},
-    }
-  };
-  return result;
-}

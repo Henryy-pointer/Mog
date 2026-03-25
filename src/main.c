@@ -17,7 +17,7 @@ int main(){
   window.height = HEIGHT;
   CreateWindow(&window, framebuffer);
   window.windowShouldClose = 0;
-  SetScene(&ImageScene);
+  SetScene(&Cube);
   while(!window.windowShouldClose){
     RunSceneUpdate();
     RunSceneDraw(framebuffer);

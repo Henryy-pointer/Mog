@@ -1,5 +1,5 @@
-CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: \
- /mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c \
+CMakeFiles/renderer.dir/src/renderer/projection.c.o: \
+ /mnt/d/Proyectos/C/Xorg/src/renderer/projection.c \
  /usr/include/stdc-predef.h \
  /mnt/d/Proyectos/C/Xorg/src/renderer/renderer.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
@@ -18,11 +18,4 @@ CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o: \
  /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
- /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h
+ /usr/include/bits/iscanonical.h

@@ -13,7 +13,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/d/Proyectos/C/Xorg/src/app/image.c" "CMakeFiles/renderer.dir/src/app/image.c.o" "gcc" "CMakeFiles/renderer.dir/src/app/image.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/main.c" "CMakeFiles/renderer.dir/src/main.c.o" "gcc" "CMakeFiles/renderer.dir/src/main.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o" "gcc" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/renderer/camera.c" "CMakeFiles/renderer.dir/src/renderer/camera.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/camera.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/renderer/projection.c" "CMakeFiles/renderer.dir/src/renderer/projection.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/projection.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o.d"
   "" "renderer" "gcc" "CMakeFiles/renderer.dir/link.d"
   )
 
