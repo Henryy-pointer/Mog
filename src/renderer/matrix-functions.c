@@ -31,9 +31,9 @@ void vec_x_matrix_projective(Vec4 *vec, Matrix4x4 *mat){
   vec->vec4[2] = mat->m[8] * x + mat->m[9] * y + mat->m[10] * z + mat->m[11] * w;
   vec->vec4[3] = mat->m[12] * x + mat->m[13] * y + mat->m[14] * z + mat->m[15] * w;
 
-  //if(vec->w != 0.0f){
+  if(vec->w != 0.0f){
     vec->x /= vec->w; vec->y /= vec->w; vec->z /= vec->w;
-  //}
+  }
 
   #ifdef DEBUG
   printf("x:%f y:%f z:%f w:%f\n", vec->x, vec->y, vec->z, vec->w);

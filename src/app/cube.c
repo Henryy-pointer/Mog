@@ -48,7 +48,7 @@ void CubeSceneInit(){
   vec = (Vec4){1,1,1,1};
   Vec4 scale = (Vec4){1,1,1,1};
   Vec4 rotation = (Vec4){0,0,0,1};
-  Vec4 position = (Vec4){0,0,0,1};
+  Vec4 position = (Vec4){0,10,0,1};
   Matrix4x4 transformM = transform(&scale, &rotation, &position);
 
   vec_x_matrix_affine(&vec, &transformM);
@@ -68,6 +68,8 @@ void CubeSceneDraw(uint32_t *framebuffer){
   for(int i = 0; i < WIDTH * HEIGHT; i++){
     framebuffer[i] = 0x00000000;
   }
+
+  framebuffer[ndc_to_index(&vec)] = 0x0000FF00;
 
 }
 

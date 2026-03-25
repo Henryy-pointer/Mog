@@ -64,4 +64,6 @@ Matrix4x4 get_projection_matrix(Camera *camera, Vec4 *vec);
 //WE ARE FINALLY IN 2D SPACE NIGGERSSSSSSSSS, HERE COMES THE RASTERIZER
 void perspective_divide(Vec4 *vec);
 Vec4 viewport_transform(Vec4 *vec);
+
+int ndc_to_index(Vec4 *vec);
 #endif
