@@ -1,0 +1,3 @@
+/mnt/d/Proyectos/C/Mog/build/CMakeFiles/Mog.dir
+/mnt/d/Proyectos/C/Mog/build/CMakeFiles/edit_cache.dir
+/mnt/d/Proyectos/C/Mog/build/CMakeFiles/rebuild_cache.dir
