@@ -1,6 +1,6 @@
 #ifndef RENDERER_H
 #define RENDERER_H
-#define DEBUG
+//#define DEBUG
 
 #include <stdint.h>
 
@@ -34,6 +34,15 @@ typedef struct {
   float near;
 }Camera;
 
+//Model type
+typedef struct {
+  Vec4 scale;
+  Vec4 rotation;
+  Vec4 position;
+  Vec4 vertices[8];
+  int edges[12][2];
+}Model;
+
 // Vector * Matrix Functions 
 void vec_x_matrix_affine(Vec4 *vec, Matrix4x4 *matrix);
 void vec_x_matrix_projective(Vec4 *vec, Matrix4x4 *matrix);
@@ -58,7 +67,7 @@ Matrix4x4 get_rotation_matrix(Vec4 *rotation);
 Matrix4x4 transform(Vec4 *scale, Vec4 *rotation, Vec4 *position);
 
 //BIG PROJECTION MATRIX (DECRYPTED FROM THE EVIL WIKIPEDIA)
-Matrix4x4 get_projection_matrix(Camera *camera, Vec4 *vec);
+Matrix4x4 get_projection_matrix(Camera *camera);
 
 
 //WE ARE FINALLY IN 2D SPACE NIGGERSSSSSSSSS, HERE COMES THE RASTERIZER
@@ -66,4 +75,14 @@ void perspective_divide(Vec4 *vec);
 Vec4 viewport_transform(Vec4 *vec);
 
 int ndc_to_index(Vec4 *vec);
+Vec4 ndc_to_2d_screen(Vec4 *vec);
+
+//framebuffer functions
+void plot(int x, int y, uint32_t *framebuffer, uint32_t color);
+//model rendering functions
+void draw_vertex(Vec4 *vertex, Matrix4x4 *mvp, uint32_t *framebuffer);
+Vec4 project_vertex(Vec4 *vertex, Matrix4x4 *mvp);
+void draw_model_vertices(Model *model, Camera *camera, uint32_t *framebuffer);
+void drawLine(int x0, int y0, int x1, int y1, uint32_t *framebuffer, uint32_t color);
+void draw_model_wireframe(Model *model, Camera *camera, uint32_t *framebuffer, uint32_t color);
 #endif

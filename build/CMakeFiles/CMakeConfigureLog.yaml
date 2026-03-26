@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -47,14 +47,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 6.19.6-arch1-1 - x86_64
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -106,7 +106,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER"
     description: "C compiler"
@@ -157,7 +157,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -190,7 +190,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /usr/bin/cc 
@@ -204,14 +204,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+        /mnt/d/Proyectos/C/Mog/build/CMakeFiles/4.2.3/CompilerIdC/a.out
       
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -250,7 +250,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -289,7 +289,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -328,7 +328,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -367,7 +367,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -406,7 +406,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -445,7 +445,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -484,7 +484,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -523,7 +523,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -571,7 +571,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -610,7 +610,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -658,7 +658,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -725,7 +725,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -792,7 +792,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER"
     description: "CXX compiler"
@@ -836,7 +836,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -869,7 +869,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/bin/c++ 
@@ -883,14 +883,14 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+        /mnt/d/Proyectos/C/Mog/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -957,7 +957,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1024,26 +1024,27 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dbaef/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_dbaef.dir/build.make CMakeFiles/cmTC_dbaef.dir/build
-        make[1]: Entering directory '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi'
-        Building C object CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b892d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b892d.dir/build.make CMakeFiles/cmTC_b892d.dir/build
+        make[1]: Entering directory '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ'
+        Building C object CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -1051,8 +1052,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dbaef.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dbaef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccK5vZES.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b892d.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b892d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccfyH2CA.s
         GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1066,14 +1067,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dbaef.dir/'
-         as -v --64 -o CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o /tmp/ccK5vZES.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b892d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o /tmp/ccfyH2CA.s
         GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_dbaef
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbaef.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b892d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b892d.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -1084,14 +1085,14 @@ events:
         gcc version 15.2.1 20260209 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dbaef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dbaef.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvTIfBe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_dbaef /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b892d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b892d.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRKBqMU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b892d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260209
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvTIfBe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_dbaef /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRKBqMU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b892d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dbaef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dbaef.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -o cmTC_dbaef
-        make[1]: Leaving directory '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b892d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b892d.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -o cmTC_b892d
+        make[1]: Leaving directory '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ'
         
       exitCode: 0
   -
@@ -1099,7 +1100,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -1121,18 +1122,18 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi']
+        ignore line: [Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dbaef/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_dbaef.dir/build.make CMakeFiles/cmTC_dbaef.dir/build]
-        ignore line: [make[1]: Entering directory '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-s8QsDi']
-        ignore line: [Building C object CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b892d/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_b892d.dir/build.make CMakeFiles/cmTC_b892d.dir/build]
+        ignore line: [make[1]: Entering directory '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-eyQVJJ']
+        ignore line: [Building C object CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1140,8 +1141,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dbaef.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dbaef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccK5vZES.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b892d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b892d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccfyH2CA.s]
         ignore line: [GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1155,14 +1156,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dbaef.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o /tmp/ccK5vZES.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b892d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o /tmp/ccfyH2CA.s]
         ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_dbaef]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbaef.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b892d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b892d.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -1173,13 +1174,13 @@ events:
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dbaef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dbaef.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvTIfBe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_dbaef /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b892d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b892d.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRKBqMU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b892d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccvTIfBe.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRKBqMU.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1194,7 +1195,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_dbaef] ==> ignore
+          arg [cmTC_b892d] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1206,7 +1207,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1221,7 +1222,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260209]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvTIfBe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_dbaef /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_dbaef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRKBqMU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b892d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b892d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1245,7 +1246,7 @@ events:
       - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.46
@@ -1254,27 +1255,28 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4752/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d4752.dir/build.make CMakeFiles/cmTC_d4752.dir/build
-        make[1]: Entering directory '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1'
-        Building CXX object CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e93d6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e93d6.dir/build.make CMakeFiles/cmTC_e93d6.dir/build
+        make[1]: Entering directory '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB'
+        Building CXX object CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -1282,8 +1284,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4752.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4752.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8oMv6N.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e93d6.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e93d6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccl6k89h.s
         GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1300,14 +1302,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4752.dir/'
-         as -v --64 -o CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8oMv6N.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e93d6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccl6k89h.s
         GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_d4752
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4752.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e93d6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e93d6.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -1318,14 +1320,14 @@ events:
         gcc version 15.2.1 20260209 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4752' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4752.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZGFrVP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4752 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e93d6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e93d6.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8lmL6m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e93d6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260209
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZGFrVP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4752 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8lmL6m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e93d6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4752' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4752.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d4752
-        make[1]: Leaving directory '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e93d6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e93d6.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e93d6
+        make[1]: Leaving directory '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB'
         
       exitCode: 0
   -
@@ -1333,7 +1335,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -1361,18 +1363,18 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1']
+        ignore line: [Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4752/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d4752.dir/build.make CMakeFiles/cmTC_d4752.dir/build]
-        ignore line: [make[1]: Entering directory '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-e0emn1']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e93d6/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e93d6.dir/build.make CMakeFiles/cmTC_e93d6.dir/build]
+        ignore line: [make[1]: Entering directory '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-DBaFqB']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1380,8 +1382,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4752.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4752.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8oMv6N.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e93d6.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e93d6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccl6k89h.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1398,14 +1400,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4752.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8oMv6N.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e93d6.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccl6k89h.s]
         ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_d4752]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4752.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e93d6]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e93d6.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -1416,13 +1418,13 @@ events:
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4752' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4752.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZGFrVP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4752 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e93d6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e93d6.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8lmL6m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e93d6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccZGFrVP.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8lmL6m.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1437,7 +1439,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d4752] ==> ignore
+          arg [cmTC_e93d6] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1449,7 +1451,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1460,7 +1462,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260209]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZGFrVP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d4752 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d4752.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8lmL6m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e93d6 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e93d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1484,19 +1486,15 @@ events:
       - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.46
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:172 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_X11_INCLUDE_PATH"
     description: "Path to a file."
@@ -1576,7 +1574,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:173 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xlib_INCLUDE_PATH"
     description: "Path to a file."
@@ -1656,7 +1654,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:179 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_ICE_INCLUDE_PATH"
     description: "Path to a file."
@@ -1736,7 +1734,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:180 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_SM_INCLUDE_PATH"
     description: "Path to a file."
@@ -1816,7 +1814,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:181 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xaccessrules_INCLUDE_PATH"
     description: "Path to a file."
@@ -1896,7 +1894,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:182 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xaccessstr_INCLUDE_PATH"
     description: "Path to a file."
@@ -1976,7 +1974,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:183 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xau_INCLUDE_PATH"
     description: "Path to a file."
@@ -2056,7 +2054,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:184 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xaw_INCLUDE_PATH"
     description: "Path to a file."
@@ -2136,7 +2134,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:185 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_INCLUDE_PATH"
     description: "Path to a file."
@@ -2216,7 +2214,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:186 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_X11_xcb_INCLUDE_PATH"
     description: "Path to a file."
@@ -2296,7 +2294,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:187 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_composite_INCLUDE_PATH"
     description: "Path to a file."
@@ -2376,7 +2374,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:188 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_cursor_INCLUDE_PATH"
     description: "Path to a file."
@@ -2456,7 +2454,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:189 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_damage_INCLUDE_PATH"
     description: "Path to a file."
@@ -2536,7 +2534,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:190 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_dpms_INCLUDE_PATH"
     description: "Path to a file."
@@ -2616,7 +2614,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:191 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_dri2_INCLUDE_PATH"
     description: "Path to a file."
@@ -2696,7 +2694,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:192 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_dri3_INCLUDE_PATH"
     description: "Path to a file."
@@ -2776,7 +2774,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:193 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_errors_INCLUDE_PATH"
     description: "Path to a file."
@@ -2856,7 +2854,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:194 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_ewmh_INCLUDE_PATH"
     description: "Path to a file."
@@ -2936,7 +2934,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:195 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_glx_INCLUDE_PATH"
     description: "Path to a file."
@@ -3016,7 +3014,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:196 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_icccm_INCLUDE_PATH"
     description: "Path to a file."
@@ -3096,7 +3094,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:197 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_image_INCLUDE_PATH"
     description: "Path to a file."
@@ -3176,7 +3174,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:198 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_keysyms_INCLUDE_PATH"
     description: "Path to a file."
@@ -3256,7 +3254,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:199 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_present_INCLUDE_PATH"
     description: "Path to a file."
@@ -3336,7 +3334,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:200 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_randr_INCLUDE_PATH"
     description: "Path to a file."
@@ -3416,7 +3414,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:201 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_record_INCLUDE_PATH"
     description: "Path to a file."
@@ -3496,7 +3494,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:202 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_render_INCLUDE_PATH"
     description: "Path to a file."
@@ -3576,7 +3574,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:203 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_render_util_INCLUDE_PATH"
     description: "Path to a file."
@@ -3656,7 +3654,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:204 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_res_INCLUDE_PATH"
     description: "Path to a file."
@@ -3736,7 +3734,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:205 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_screensaver_INCLUDE_PATH"
     description: "Path to a file."
@@ -3816,7 +3814,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:206 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_shape_INCLUDE_PATH"
     description: "Path to a file."
@@ -3896,7 +3894,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:207 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_shm_INCLUDE_PATH"
     description: "Path to a file."
@@ -3976,7 +3974,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:208 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_sync_INCLUDE_PATH"
     description: "Path to a file."
@@ -4056,7 +4054,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:209 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_util_INCLUDE_PATH"
     description: "Path to a file."
@@ -4136,7 +4134,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:210 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xf86dri_INCLUDE_PATH"
     description: "Path to a file."
@@ -4216,7 +4214,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:211 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xfixes_INCLUDE_PATH"
     description: "Path to a file."
@@ -4296,7 +4294,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:212 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xinerama_INCLUDE_PATH"
     description: "Path to a file."
@@ -4376,7 +4374,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:213 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xinput_INCLUDE_PATH"
     description: "Path to a file."
@@ -4456,7 +4454,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:214 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xkb_INCLUDE_PATH"
     description: "Path to a file."
@@ -4536,7 +4534,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:215 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xrm_INCLUDE_PATH"
     description: "Path to a file."
@@ -4633,7 +4631,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:216 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xtest_INCLUDE_PATH"
     description: "Path to a file."
@@ -4713,7 +4711,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:217 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xvmc_INCLUDE_PATH"
     description: "Path to a file."
@@ -4793,7 +4791,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:218 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xcb_xv_INCLUDE_PATH"
     description: "Path to a file."
@@ -4873,7 +4871,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:219 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xcomposite_INCLUDE_PATH"
     description: "Path to a file."
@@ -4953,7 +4951,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:220 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xcursor_INCLUDE_PATH"
     description: "Path to a file."
@@ -5033,7 +5031,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:221 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xdamage_INCLUDE_PATH"
     description: "Path to a file."
@@ -5113,7 +5111,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:222 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xdbe_INCLUDE_PATH"
     description: "Path to a file."
@@ -5193,7 +5191,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:223 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xdmcp_INCLUDE_PATH"
     description: "Path to a file."
@@ -5273,7 +5271,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:224 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xext_INCLUDE_PATH"
     description: "Path to a file."
@@ -5353,7 +5351,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:225 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_dpms_INCLUDE_PATH"
     description: "Path to a file."
@@ -5433,7 +5431,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:226 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xxf86misc_INCLUDE_PATH"
     description: "Path to a file."
@@ -5530,7 +5528,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:227 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xxf86vm_INCLUDE_PATH"
     description: "Path to a file."
@@ -5610,7 +5608,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:228 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xfixes_INCLUDE_PATH"
     description: "Path to a file."
@@ -5690,7 +5688,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:229 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xft_INCLUDE_PATH"
     description: "Path to a file."
@@ -5770,7 +5768,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:230 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xi_INCLUDE_PATH"
     description: "Path to a file."
@@ -5850,7 +5848,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:231 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xinerama_INCLUDE_PATH"
     description: "Path to a file."
@@ -5930,7 +5928,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:232 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xkb_INCLUDE_PATH"
     description: "Path to a file."
@@ -6010,7 +6008,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:233 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xkbcommon_INCLUDE_PATH"
     description: "Path to a file."
@@ -6090,7 +6088,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:234 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xkbcommon_X11_INCLUDE_PATH"
     description: "Path to a file."
@@ -6170,7 +6168,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:235 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xkblib_INCLUDE_PATH"
     description: "Path to a file."
@@ -6250,7 +6248,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:236 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_xkbfile_INCLUDE_PATH"
     description: "Path to a file."
@@ -6330,7 +6328,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:237 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xmu_INCLUDE_PATH"
     description: "Path to a file."
@@ -6410,7 +6408,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:238 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xpm_INCLUDE_PATH"
     description: "Path to a file."
@@ -6490,7 +6488,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:239 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xpresent_INCLUDE_PATH"
     description: "Path to a file."
@@ -6570,7 +6568,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:240 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xtst_INCLUDE_PATH"
     description: "Path to a file."
@@ -6650,7 +6648,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:241 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_XShm_INCLUDE_PATH"
     description: "Path to a file."
@@ -6730,7 +6728,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:242 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xrandr_INCLUDE_PATH"
     description: "Path to a file."
@@ -6810,7 +6808,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:243 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xrender_INCLUDE_PATH"
     description: "Path to a file."
@@ -6890,7 +6888,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:244 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_XRes_INCLUDE_PATH"
     description: "Path to a file."
@@ -6987,7 +6985,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:245 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xss_INCLUDE_PATH"
     description: "Path to a file."
@@ -7067,7 +7065,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:246 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xshape_INCLUDE_PATH"
     description: "Path to a file."
@@ -7147,7 +7145,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:247 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xutil_INCLUDE_PATH"
     description: "Path to a file."
@@ -7227,7 +7225,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:248 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xt_INCLUDE_PATH"
     description: "Path to a file."
@@ -7307,7 +7305,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:249 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_Xv_INCLUDE_PATH"
     description: "Path to a file."
@@ -7387,7 +7385,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:250 (find_path)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "X11_XSync_INCLUDE_PATH"
     description: "Path to a file."
@@ -7467,7 +7465,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:262 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_X11_LIB"
     description: "Path to a library."
@@ -7545,7 +7543,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:265 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_ICE_LIB"
     description: "Path to a library."
@@ -7623,7 +7621,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:266 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_SM_LIB"
     description: "Path to a library."
@@ -7701,7 +7699,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:267 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xau_LIB"
     description: "Path to a library."
@@ -7779,7 +7777,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:268 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xaw_LIB"
     description: "Path to a library."
@@ -7857,7 +7855,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:269 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_LIB"
     description: "Path to a library."
@@ -7935,7 +7933,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:270 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_X11_xcb_LIB"
     description: "Path to a library."
@@ -8013,7 +8011,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:271 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_composite_LIB"
     description: "Path to a library."
@@ -8091,7 +8089,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:272 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_cursor_LIB"
     description: "Path to a library."
@@ -8169,7 +8167,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:273 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_damage_LIB"
     description: "Path to a library."
@@ -8247,7 +8245,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:274 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_dpms_LIB"
     description: "Path to a library."
@@ -8325,7 +8323,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:275 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_dri2_LIB"
     description: "Path to a library."
@@ -8403,7 +8401,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:276 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_dri3_LIB"
     description: "Path to a library."
@@ -8481,7 +8479,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:277 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_errors_LIB"
     description: "Path to a library."
@@ -8559,7 +8557,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:278 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_ewmh_LIB"
     description: "Path to a library."
@@ -8637,7 +8635,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:279 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_glx_LIB"
     description: "Path to a library."
@@ -8715,7 +8713,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:280 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_icccm_LIB"
     description: "Path to a library."
@@ -8793,7 +8791,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:281 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_image_LIB"
     description: "Path to a library."
@@ -8871,7 +8869,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:282 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_keysyms_LIB"
     description: "Path to a library."
@@ -8949,7 +8947,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:283 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_present_LIB"
     description: "Path to a library."
@@ -9027,7 +9025,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:284 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_randr_LIB"
     description: "Path to a library."
@@ -9105,7 +9103,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:285 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_record_LIB"
     description: "Path to a library."
@@ -9183,7 +9181,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:286 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_render_LIB"
     description: "Path to a library."
@@ -9261,7 +9259,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:287 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_render_util_LIB"
     description: "Path to a library."
@@ -9339,7 +9337,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:288 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_res_LIB"
     description: "Path to a library."
@@ -9417,7 +9415,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:289 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_screensaver_LIB"
     description: "Path to a library."
@@ -9495,7 +9493,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:290 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_shape_LIB"
     description: "Path to a library."
@@ -9573,7 +9571,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:291 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_shm_LIB"
     description: "Path to a library."
@@ -9651,7 +9649,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:292 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_sync_LIB"
     description: "Path to a library."
@@ -9729,7 +9727,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:293 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_util_LIB"
     description: "Path to a library."
@@ -9807,7 +9805,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:294 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xf86dri_LIB"
     description: "Path to a library."
@@ -9885,7 +9883,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:295 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xfixes_LIB"
     description: "Path to a library."
@@ -9963,7 +9961,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:296 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xinerama_LIB"
     description: "Path to a library."
@@ -10041,7 +10039,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:297 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xinput_LIB"
     description: "Path to a library."
@@ -10119,7 +10117,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:298 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xkb_LIB"
     description: "Path to a library."
@@ -10197,7 +10195,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:299 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xrm_LIB"
     description: "Path to a library."
@@ -10290,7 +10288,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:300 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xtest_LIB"
     description: "Path to a library."
@@ -10368,7 +10366,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:301 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xvmc_LIB"
     description: "Path to a library."
@@ -10446,7 +10444,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:302 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xcb_xv_LIB"
     description: "Path to a library."
@@ -10524,7 +10522,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:303 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xcomposite_LIB"
     description: "Path to a library."
@@ -10602,7 +10600,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:304 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xcursor_LIB"
     description: "Path to a library."
@@ -10680,7 +10678,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:305 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xdamage_LIB"
     description: "Path to a library."
@@ -10758,7 +10756,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:306 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xdmcp_LIB"
     description: "Path to a library."
@@ -10836,7 +10834,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:307 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xext_LIB"
     description: "Path to a library."
@@ -10914,7 +10912,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:308 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xfixes_LIB"
     description: "Path to a library."
@@ -10992,7 +10990,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:309 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xft_LIB"
     description: "Path to a library."
@@ -11070,7 +11068,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:310 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xi_LIB"
     description: "Path to a library."
@@ -11148,7 +11146,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:311 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xinerama_LIB"
     description: "Path to a library."
@@ -11226,7 +11224,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:312 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xkbcommon_LIB"
     description: "Path to a library."
@@ -11304,7 +11302,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:313 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xkbcommon_X11_LIB"
     description: "Path to a library."
@@ -11382,7 +11380,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:314 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_xkbfile_LIB"
     description: "Path to a library."
@@ -11460,7 +11458,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:315 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xmu_LIB"
     description: "Path to a library."
@@ -11538,7 +11536,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:316 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xpm_LIB"
     description: "Path to a library."
@@ -11616,7 +11614,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:317 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xpresent_LIB"
     description: "Path to a library."
@@ -11694,7 +11692,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:318 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xrandr_LIB"
     description: "Path to a library."
@@ -11772,7 +11770,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:319 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xrender_LIB"
     description: "Path to a library."
@@ -11850,7 +11848,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:320 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_XRes_LIB"
     description: "Path to a library."
@@ -11943,7 +11941,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:321 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xss_LIB"
     description: "Path to a library."
@@ -12021,7 +12019,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:322 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xt_LIB"
     description: "Path to a library."
@@ -12099,7 +12097,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:323 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xtst_LIB"
     description: "Path to a library."
@@ -12177,7 +12175,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:324 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xv_LIB"
     description: "Path to a library."
@@ -12255,7 +12253,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:325 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xxf86misc_LIB"
     description: "Path to a library."
@@ -12348,7 +12346,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindX11.cmake:326 (find_library)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "X11_Xxf86vm_LIB"
     description: "Path to a library."
@@ -12427,7 +12425,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindFreetype.cmake:132 (find_path)"
       - "/usr/share/cmake/Modules/FindX11.cmake:373 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "FREETYPE_INCLUDE_DIR_ft2build"
     description: "Path to a file."
@@ -12593,7 +12591,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindFreetype.cmake:142 (find_path)"
       - "/usr/share/cmake/Modules/FindX11.cmake:373 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "FREETYPE_INCLUDE_DIR_freetype2"
     description: "Path to a file."
@@ -12760,7 +12758,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindFreetype.cmake:155 (find_library)"
       - "/usr/share/cmake/Modules/FindX11.cmake:373 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "FREETYPE_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -12867,7 +12865,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindFreetype.cmake:164 (find_library)"
       - "/usr/share/cmake/Modules/FindX11.cmake:373 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "FREETYPE_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -13074,7 +13072,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
       - "/usr/share/cmake/Modules/FindFontconfig.cmake:59 (find_package)"
       - "/usr/share/cmake/Modules/FindX11.cmake:374 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "program"
     variable: "PKG_CONFIG_EXECUTABLE"
     description: "pkg-config executable"
@@ -13150,7 +13148,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
       - "/usr/share/cmake/Modules/FindFontconfig.cmake:61 (pkg_check_modules)"
       - "/usr/share/cmake/Modules/FindX11.cmake:374 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "pkgcfg_lib_PKG_FONTCONFIG_fontconfig"
     description: "Path to a library."
@@ -13194,7 +13192,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindFontconfig.cmake:66 (find_path)"
       - "/usr/share/cmake/Modules/FindX11.cmake:374 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "path"
     variable: "Fontconfig_INCLUDE_DIR"
     description: "Path to a file."
@@ -13261,7 +13259,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/FindFontconfig.cmake:74 (find_library)"
       - "/usr/share/cmake/Modules/FindX11.cmake:374 (find_package)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     mode: "library"
     variable: "Fontconfig_LIBRARY"
     description: "Path to a library."
@@ -13336,12 +13334,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
       - "/usr/share/cmake/Modules/FindX11.cmake:714 (check_library_exists)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     checks:
       - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-5OfXfl"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-5OfXfl"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-w8uBku"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-w8uBku"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -13350,17 +13348,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-5OfXfl'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-w8uBku'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c25f6/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c25f6.dir/build.make CMakeFiles/cmTC_c25f6.dir/build
-        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-5OfXfl'
-        Building C object CMakeFiles/cmTC_c25f6.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_c25f6.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-5OfXfl/CheckFunctionExists.c
-        Linking C executable cmTC_c25f6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c25f6.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_c25f6.dir/CheckFunctionExists.c.o -o cmTC_c25f6  /usr/lib/libX11.so /usr/lib/libXext.so
-        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-5OfXfl'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61660/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_61660.dir/build.make CMakeFiles/cmTC_61660.dir/build
+        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-w8uBku'
+        Building C object CMakeFiles/cmTC_61660.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_61660.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-w8uBku/CheckFunctionExists.c
+        Linking C executable cmTC_61660
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61660.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_61660.dir/CheckFunctionExists.c.o -o cmTC_61660  /usr/lib/libX11.so /usr/lib/libXext.so
+        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-w8uBku'
         
       exitCode: 0
   -
@@ -13368,12 +13366,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:167 (try_compile)"
       - "/usr/share/cmake/Modules/FindX11.cmake:729 (check_function_exists)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-hEjD50"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-hEjD50"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-cRInln"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-cRInln"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -13382,17 +13380,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-hEjD50'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-cRInln'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c7f76/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c7f76.dir/build.make CMakeFiles/cmTC_c7f76.dir/build
-        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-hEjD50'
-        Building C object CMakeFiles/cmTC_c7f76.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_c7f76.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-hEjD50/CheckFunctionExists.c
-        Linking C executable cmTC_c7f76
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7f76.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_c7f76.dir/CheckFunctionExists.c.o -o cmTC_c7f76
-        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-hEjD50'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f30da/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f30da.dir/build.make CMakeFiles/cmTC_f30da.dir/build
+        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-cRInln'
+        Building C object CMakeFiles/cmTC_f30da.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_f30da.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-cRInln/CheckFunctionExists.c
+        Linking C executable cmTC_f30da
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30da.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_f30da.dir/CheckFunctionExists.c.o -o cmTC_f30da
+        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-cRInln'
         
       exitCode: 0
   -
@@ -13400,12 +13398,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:167 (try_compile)"
       - "/usr/share/cmake/Modules/FindX11.cmake:743 (check_function_exists)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     checks:
       - "Looking for connect"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-TXdGYB"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-TXdGYB"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-qduidH"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-qduidH"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -13414,17 +13412,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-TXdGYB'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-qduidH'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4556b/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_4556b.dir/build.make CMakeFiles/cmTC_4556b.dir/build
-        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-TXdGYB'
-        Building C object CMakeFiles/cmTC_4556b.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_4556b.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-TXdGYB/CheckFunctionExists.c
-        Linking C executable cmTC_4556b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4556b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_4556b.dir/CheckFunctionExists.c.o -o cmTC_4556b
-        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-TXdGYB'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_19255/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_19255.dir/build.make CMakeFiles/cmTC_19255.dir/build
+        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-qduidH'
+        Building C object CMakeFiles/cmTC_19255.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_19255.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-qduidH/CheckFunctionExists.c
+        Linking C executable cmTC_19255
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19255.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_19255.dir/CheckFunctionExists.c.o -o cmTC_19255
+        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-qduidH'
         
       exitCode: 0
   -
@@ -13432,12 +13430,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:167 (try_compile)"
       - "/usr/share/cmake/Modules/FindX11.cmake:752 (check_function_exists)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     checks:
       - "Looking for remove"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-4rPE5o"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-4rPE5o"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-QLLyOV"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-QLLyOV"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -13446,17 +13444,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-4rPE5o'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-QLLyOV'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f9b50/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_f9b50.dir/build.make CMakeFiles/cmTC_f9b50.dir/build
-        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-4rPE5o'
-        Building C object CMakeFiles/cmTC_f9b50.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_f9b50.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-4rPE5o/CheckFunctionExists.c
-        Linking C executable cmTC_f9b50
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9b50.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_f9b50.dir/CheckFunctionExists.c.o -o cmTC_f9b50
-        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-4rPE5o'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6220/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c6220.dir/build.make CMakeFiles/cmTC_c6220.dir/build
+        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-QLLyOV'
+        Building C object CMakeFiles/cmTC_c6220.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_c6220.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-QLLyOV/CheckFunctionExists.c
+        Linking C executable cmTC_c6220
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6220.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_c6220.dir/CheckFunctionExists.c.o -o cmTC_c6220
+        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-QLLyOV'
         
       exitCode: 0
   -
@@ -13464,12 +13462,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:167 (try_compile)"
       - "/usr/share/cmake/Modules/FindX11.cmake:761 (check_function_exists)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     checks:
       - "Looking for shmat"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-vOv6Vp"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-vOv6Vp"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-s3KEB9"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-s3KEB9"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -13478,17 +13476,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-vOv6Vp'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-s3KEB9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b13ae/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_b13ae.dir/build.make CMakeFiles/cmTC_b13ae.dir/build
-        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-vOv6Vp'
-        Building C object CMakeFiles/cmTC_b13ae.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_b13ae.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-vOv6Vp/CheckFunctionExists.c
-        Linking C executable cmTC_b13ae
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13ae.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_b13ae.dir/CheckFunctionExists.c.o -o cmTC_b13ae
-        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-vOv6Vp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d3346/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d3346.dir/build.make CMakeFiles/cmTC_d3346.dir/build
+        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-s3KEB9'
+        Building C object CMakeFiles/cmTC_d3346.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_d3346.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-s3KEB9/CheckFunctionExists.c
+        Linking C executable cmTC_d3346
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3346.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_d3346.dir/CheckFunctionExists.c.o -o cmTC_d3346
+        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-s3KEB9'
         
       exitCode: 0
   -
@@ -13496,12 +13494,12 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:154 (try_compile)"
       - "/usr/share/cmake/Modules/FindX11.cmake:771 (check_library_exists)"
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-d6Hpr1"
-      binary: "/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-d6Hpr1"
+      source: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-9tiVL7"
+      binary: "/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-9tiVL7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -13510,17 +13508,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-d6Hpr1'
+        Change Dir: '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-9tiVL7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e7c83/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e7c83.dir/build.make CMakeFiles/cmTC_e7c83.dir/build
-        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-d6Hpr1'
-        Building C object CMakeFiles/cmTC_e7c83.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_e7c83.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-d6Hpr1/CheckFunctionExists.c
-        Linking C executable cmTC_e7c83
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7c83.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_e7c83.dir/CheckFunctionExists.c.o -o cmTC_e7c83  -lICE
-        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Xorg/build/CMakeFiles/CMakeScratch/TryCompile-d6Hpr1'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bfb13/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bfb13.dir/build.make CMakeFiles/cmTC_bfb13.dir/build
+        make[1]: se entra en el directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-9tiVL7'
+        Building C object CMakeFiles/cmTC_bfb13.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_bfb13.dir/CheckFunctionExists.c.o -c /mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-9tiVL7/CheckFunctionExists.c
+        Linking C executable cmTC_bfb13
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfb13.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_bfb13.dir/CheckFunctionExists.c.o -o cmTC_bfb13  -lICE
+        make[1]: se sale del directorio '/mnt/d/Proyectos/C/Mog/build/CMakeFiles/CMakeScratch/TryCompile-9tiVL7'
         
       exitCode: 0
 ...

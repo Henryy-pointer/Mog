@@ -8,16 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Proyectos/C/Xorg/src/Scene.c" "CMakeFiles/renderer.dir/src/Scene.c.o" "gcc" "CMakeFiles/renderer.dir/src/Scene.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/app/cube.c" "CMakeFiles/renderer.dir/src/app/cube.c.o" "gcc" "CMakeFiles/renderer.dir/src/app/cube.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/app/image.c" "CMakeFiles/renderer.dir/src/app/image.c.o" "gcc" "CMakeFiles/renderer.dir/src/app/image.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/main.c" "CMakeFiles/renderer.dir/src/main.c.o" "gcc" "CMakeFiles/renderer.dir/src/main.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/platform/X11/window.c" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o" "gcc" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/renderer/camera.c" "CMakeFiles/renderer.dir/src/renderer/camera.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/camera.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/renderer/projection.c" "CMakeFiles/renderer.dir/src/renderer/projection.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/projection.c.o.d"
-  "/mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/Scene.c" "CMakeFiles/renderer.dir/src/Scene.c.o" "gcc" "CMakeFiles/renderer.dir/src/Scene.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/app/cube.c" "CMakeFiles/renderer.dir/src/app/cube.c.o" "gcc" "CMakeFiles/renderer.dir/src/app/cube.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/app/image.c" "CMakeFiles/renderer.dir/src/app/image.c.o" "gcc" "CMakeFiles/renderer.dir/src/app/image.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/main.c" "CMakeFiles/renderer.dir/src/main.c.o" "gcc" "CMakeFiles/renderer.dir/src/main.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/platform/X11/window.c" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o" "gcc" "CMakeFiles/renderer.dir/src/platform/X11/window.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/renderer/camera.c" "CMakeFiles/renderer.dir/src/renderer/camera.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/camera.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/renderer/matrix-functions.c" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/renderer/model-transform.c" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/renderer/model.c" "CMakeFiles/renderer.dir/src/renderer/model.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/model.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/renderer/projection.c" "CMakeFiles/renderer.dir/src/renderer/projection.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/projection.c.o.d"
+  "/mnt/d/Proyectos/C/Mog/src/renderer/rasterizer.c" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o.d"
   "" "renderer" "gcc" "CMakeFiles/renderer.dir/link.d"
   )
 

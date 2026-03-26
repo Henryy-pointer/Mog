@@ -41,16 +41,20 @@ void CreateWindow(FrameWindow *window, uint32_t *framebuffer){
 }
 //void UpdateWindow(int width, int height, Display* dp, Window win, GC gc, XImage *ximage, XEvent ev, Atom *WM_DELETE_WINDOW){ 
 void UpdateWindow(FrameWindow *window){
-    XEvent ev;
-    XNextEvent(window->dp, &ev);
+    while (XPending(window->dp)){
+      XEvent ev;
+      XNextEvent(window->dp, &ev);
 
-    if(ev.type == ClientMessage){
-      if((Atom)ev.xclient.data.l[0] ==  window->WM_DELETE_WINDOW) {
-        window->windowShouldClose = 1;
+      if(ev.type == ClientMessage){
+        if((Atom)ev.xclient.data.l[0] ==  window->WM_DELETE_WINDOW) {
+          window->windowShouldClose = 1;
+        }
+      }
+      if(ev.type == Expose){
+        XPutImage(window->dp, window->win, window->gc, window->ximage, 0,0,0,0, window->width, window->height);
+        XFlush(window->dp);
       }
     }
-    if(ev.type == Expose){
-      XPutImage(window->dp, window->win, window->gc, window->ximage, 0,0,0,0, window->width, window->height);
-    }
-    
+    XPutImage(window->dp, window->win, window->gc, window->ximage, 0,0,0,0, window->width, window->height);
+    XFlush(window->dp);
   }

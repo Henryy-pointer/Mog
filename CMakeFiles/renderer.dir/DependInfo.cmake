@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/d/Proyectos/C/Xorg/src/renderer/camera.c" "CMakeFiles/renderer.dir/src/renderer/camera.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/camera.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/renderer/matrix-functions.c" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/renderer/model-transform.c" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o.d"
+  "/mnt/d/Proyectos/C/Xorg/src/renderer/model.c" "CMakeFiles/renderer.dir/src/renderer/model.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/model.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/renderer/projection.c" "CMakeFiles/renderer.dir/src/renderer/projection.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/projection.c.o.d"
   "/mnt/d/Proyectos/C/Xorg/src/renderer/rasterizer.c" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o" "gcc" "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o.d"
   "" "renderer" "gcc" "CMakeFiles/renderer.dir/link.d"

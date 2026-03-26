@@ -6,6 +6,14 @@ int ndc_to_index(Vec4 *vec){
   return (y * WIDTH)+x;
 }
 
+Vec4 ndc_to_2d_screen(Vec4 *vec){
+  int x = (int)((vec->x + 1) * 0.5f * (float)WIDTH);
+  int y = (int)((1.0 - vec->y) * 0.5f * (float)HEIGHT);
+  Vec4 result;
+  result.x = x; result.y = y; result.z = vec->z; result.w = vec->w;
+  return result;
+}
+
 void perspective_divide(Vec4 *vec){
   if (vec->w <= 0.001f) return;
   float w_inv = 1 / vec->w;

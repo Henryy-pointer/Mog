@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o.d"
   "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o"
   "CMakeFiles/renderer.dir/src/renderer/model-transform.c.o.d"
+  "CMakeFiles/renderer.dir/src/renderer/model.c.o"
+  "CMakeFiles/renderer.dir/src/renderer/model.c.o.d"
   "CMakeFiles/renderer.dir/src/renderer/projection.c.o"
   "CMakeFiles/renderer.dir/src/renderer/projection.c.o.d"
   "CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o"

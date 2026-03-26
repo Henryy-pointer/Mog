@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/d/Proyectos/C/Xorg/cmake_install.cmake"
+		"/mnt/d/Proyectos/C/Mog/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

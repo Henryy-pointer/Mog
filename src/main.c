@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 
 extern Scene *currentScene;
 uint32_t *framebuffer;
@@ -18,10 +19,20 @@ int main(){
   CreateWindow(&window, framebuffer);
   window.windowShouldClose = 0;
   SetScene(&Cube);
+  #ifdef DEBUG
+    int counter = 0;
+  #endif 
+
   while(!window.windowShouldClose){
     RunSceneUpdate();
     RunSceneDraw(framebuffer);
     UpdateWindow(&window);
+    //printf("frame done\n");
+    usleep(16666);
+  #ifdef DEBUG
+    counter++;
+    printf("frame: %i\n", counter);
+  #endif
   }
   if(currentScene && currentScene->SceneEnd)currentScene->SceneEnd();
   //Cleanup();

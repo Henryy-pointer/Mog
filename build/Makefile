@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Proyectos/C/Xorg
+CMAKE_SOURCE_DIR = /mnt/d/Proyectos/C/Mog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Proyectos/C/Xorg/build
+CMAKE_BINARY_DIR = /mnt/d/Proyectos/C/Mog/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Proyectos/C/Xorg/build/CMakeFiles /mnt/d/Proyectos/C/Xorg/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Proyectos/C/Mog/build/CMakeFiles /mnt/d/Proyectos/C/Mog/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Proyectos/C/Xorg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Proyectos/C/Mog/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named renderer
+# Target rules for targets named Mog
 
 # Build rule for target.
-renderer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 renderer
-.PHONY : renderer
+Mog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Mog
+.PHONY : Mog
 
 # fast build rule for target.
-renderer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/build
-.PHONY : renderer/fast
+Mog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/build
+.PHONY : Mog/fast
 
 src/Scene.o: src/Scene.c.o
 .PHONY : src/Scene.o
 
 # target to build an object file
 src/Scene.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/Scene.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/Scene.c.o
 .PHONY : src/Scene.c.o
 
 src/Scene.i: src/Scene.c.i
@@ -142,7 +142,7 @@ src/Scene.i: src/Scene.c.i
 
 # target to preprocess a source file
 src/Scene.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/Scene.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/Scene.c.i
 .PHONY : src/Scene.c.i
 
 src/Scene.s: src/Scene.c.s
@@ -150,7 +150,7 @@ src/Scene.s: src/Scene.c.s
 
 # target to generate assembly for a file
 src/Scene.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/Scene.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/Scene.c.s
 .PHONY : src/Scene.c.s
 
 src/app/cube.o: src/app/cube.c.o
@@ -158,7 +158,7 @@ src/app/cube.o: src/app/cube.c.o
 
 # target to build an object file
 src/app/cube.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/cube.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/app/cube.c.o
 .PHONY : src/app/cube.c.o
 
 src/app/cube.i: src/app/cube.c.i
@@ -166,7 +166,7 @@ src/app/cube.i: src/app/cube.c.i
 
 # target to preprocess a source file
 src/app/cube.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/cube.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/app/cube.c.i
 .PHONY : src/app/cube.c.i
 
 src/app/cube.s: src/app/cube.c.s
@@ -174,7 +174,7 @@ src/app/cube.s: src/app/cube.c.s
 
 # target to generate assembly for a file
 src/app/cube.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/cube.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/app/cube.c.s
 .PHONY : src/app/cube.c.s
 
 src/app/image.o: src/app/image.c.o
@@ -182,7 +182,7 @@ src/app/image.o: src/app/image.c.o
 
 # target to build an object file
 src/app/image.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/image.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/app/image.c.o
 .PHONY : src/app/image.c.o
 
 src/app/image.i: src/app/image.c.i
@@ -190,7 +190,7 @@ src/app/image.i: src/app/image.c.i
 
 # target to preprocess a source file
 src/app/image.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/image.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/app/image.c.i
 .PHONY : src/app/image.c.i
 
 src/app/image.s: src/app/image.c.s
@@ -198,7 +198,7 @@ src/app/image.s: src/app/image.c.s
 
 # target to generate assembly for a file
 src/app/image.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/app/image.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/app/image.c.s
 .PHONY : src/app/image.c.s
 
 src/main.o: src/main.c.o
@@ -206,7 +206,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -214,7 +214,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -222,7 +222,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/platform/X11/window.o: src/platform/X11/window.c.o
@@ -230,7 +230,7 @@ src/platform/X11/window.o: src/platform/X11/window.c.o
 
 # target to build an object file
 src/platform/X11/window.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/platform/X11/window.c.o
 .PHONY : src/platform/X11/window.c.o
 
 src/platform/X11/window.i: src/platform/X11/window.c.i
@@ -238,7 +238,7 @@ src/platform/X11/window.i: src/platform/X11/window.c.i
 
 # target to preprocess a source file
 src/platform/X11/window.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/platform/X11/window.c.i
 .PHONY : src/platform/X11/window.c.i
 
 src/platform/X11/window.s: src/platform/X11/window.c.s
@@ -246,7 +246,7 @@ src/platform/X11/window.s: src/platform/X11/window.c.s
 
 # target to generate assembly for a file
 src/platform/X11/window.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/platform/X11/window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/platform/X11/window.c.s
 .PHONY : src/platform/X11/window.c.s
 
 src/renderer/camera.o: src/renderer/camera.c.o
@@ -254,7 +254,7 @@ src/renderer/camera.o: src/renderer/camera.c.o
 
 # target to build an object file
 src/renderer/camera.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/camera.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/camera.c.o
 .PHONY : src/renderer/camera.c.o
 
 src/renderer/camera.i: src/renderer/camera.c.i
@@ -262,7 +262,7 @@ src/renderer/camera.i: src/renderer/camera.c.i
 
 # target to preprocess a source file
 src/renderer/camera.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/camera.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/camera.c.i
 .PHONY : src/renderer/camera.c.i
 
 src/renderer/camera.s: src/renderer/camera.c.s
@@ -270,7 +270,7 @@ src/renderer/camera.s: src/renderer/camera.c.s
 
 # target to generate assembly for a file
 src/renderer/camera.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/camera.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/camera.c.s
 .PHONY : src/renderer/camera.c.s
 
 src/renderer/matrix-functions.o: src/renderer/matrix-functions.c.o
@@ -278,7 +278,7 @@ src/renderer/matrix-functions.o: src/renderer/matrix-functions.c.o
 
 # target to build an object file
 src/renderer/matrix-functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/matrix-functions.c.o
 .PHONY : src/renderer/matrix-functions.c.o
 
 src/renderer/matrix-functions.i: src/renderer/matrix-functions.c.i
@@ -286,7 +286,7 @@ src/renderer/matrix-functions.i: src/renderer/matrix-functions.c.i
 
 # target to preprocess a source file
 src/renderer/matrix-functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/matrix-functions.c.i
 .PHONY : src/renderer/matrix-functions.c.i
 
 src/renderer/matrix-functions.s: src/renderer/matrix-functions.c.s
@@ -294,7 +294,7 @@ src/renderer/matrix-functions.s: src/renderer/matrix-functions.c.s
 
 # target to generate assembly for a file
 src/renderer/matrix-functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/matrix-functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/matrix-functions.c.s
 .PHONY : src/renderer/matrix-functions.c.s
 
 src/renderer/model-transform.o: src/renderer/model-transform.c.o
@@ -302,7 +302,7 @@ src/renderer/model-transform.o: src/renderer/model-transform.c.o
 
 # target to build an object file
 src/renderer/model-transform.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/model-transform.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/model-transform.c.o
 .PHONY : src/renderer/model-transform.c.o
 
 src/renderer/model-transform.i: src/renderer/model-transform.c.i
@@ -310,7 +310,7 @@ src/renderer/model-transform.i: src/renderer/model-transform.c.i
 
 # target to preprocess a source file
 src/renderer/model-transform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/model-transform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/model-transform.c.i
 .PHONY : src/renderer/model-transform.c.i
 
 src/renderer/model-transform.s: src/renderer/model-transform.c.s
@@ -318,15 +318,39 @@ src/renderer/model-transform.s: src/renderer/model-transform.c.s
 
 # target to generate assembly for a file
 src/renderer/model-transform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/model-transform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/model-transform.c.s
 .PHONY : src/renderer/model-transform.c.s
+
+src/renderer/model.o: src/renderer/model.c.o
+.PHONY : src/renderer/model.o
+
+# target to build an object file
+src/renderer/model.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/model.c.o
+.PHONY : src/renderer/model.c.o
+
+src/renderer/model.i: src/renderer/model.c.i
+.PHONY : src/renderer/model.i
+
+# target to preprocess a source file
+src/renderer/model.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/model.c.i
+.PHONY : src/renderer/model.c.i
+
+src/renderer/model.s: src/renderer/model.c.s
+.PHONY : src/renderer/model.s
+
+# target to generate assembly for a file
+src/renderer/model.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/model.c.s
+.PHONY : src/renderer/model.c.s
 
 src/renderer/projection.o: src/renderer/projection.c.o
 .PHONY : src/renderer/projection.o
 
 # target to build an object file
 src/renderer/projection.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/projection.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/projection.c.o
 .PHONY : src/renderer/projection.c.o
 
 src/renderer/projection.i: src/renderer/projection.c.i
@@ -334,7 +358,7 @@ src/renderer/projection.i: src/renderer/projection.c.i
 
 # target to preprocess a source file
 src/renderer/projection.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/projection.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/projection.c.i
 .PHONY : src/renderer/projection.c.i
 
 src/renderer/projection.s: src/renderer/projection.c.s
@@ -342,7 +366,7 @@ src/renderer/projection.s: src/renderer/projection.c.s
 
 # target to generate assembly for a file
 src/renderer/projection.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/projection.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/projection.c.s
 .PHONY : src/renderer/projection.c.s
 
 src/renderer/rasterizer.o: src/renderer/rasterizer.c.o
@@ -350,7 +374,7 @@ src/renderer/rasterizer.o: src/renderer/rasterizer.c.o
 
 # target to build an object file
 src/renderer/rasterizer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/rasterizer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/rasterizer.c.o
 .PHONY : src/renderer/rasterizer.c.o
 
 src/renderer/rasterizer.i: src/renderer/rasterizer.c.i
@@ -358,7 +382,7 @@ src/renderer/rasterizer.i: src/renderer/rasterizer.c.i
 
 # target to preprocess a source file
 src/renderer/rasterizer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/rasterizer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/rasterizer.c.i
 .PHONY : src/renderer/rasterizer.c.i
 
 src/renderer/rasterizer.s: src/renderer/rasterizer.c.s
@@ -366,7 +390,7 @@ src/renderer/rasterizer.s: src/renderer/rasterizer.c.s
 
 # target to generate assembly for a file
 src/renderer/rasterizer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/renderer.dir/build.make CMakeFiles/renderer.dir/src/renderer/rasterizer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mog.dir/build.make CMakeFiles/Mog.dir/src/renderer/rasterizer.c.s
 .PHONY : src/renderer/rasterizer.c.s
 
 # Help Target
@@ -377,7 +401,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... renderer"
+	@echo "... Mog"
 	@echo "... src/Scene.o"
 	@echo "... src/Scene.i"
 	@echo "... src/Scene.s"
@@ -402,6 +426,9 @@ help:
 	@echo "... src/renderer/model-transform.o"
 	@echo "... src/renderer/model-transform.i"
 	@echo "... src/renderer/model-transform.s"
+	@echo "... src/renderer/model.o"
+	@echo "... src/renderer/model.i"
+	@echo "... src/renderer/model.s"
 	@echo "... src/renderer/projection.o"
 	@echo "... src/renderer/projection.i"
 	@echo "... src/renderer/projection.s"
